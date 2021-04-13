@@ -6,7 +6,8 @@ ____________________________________
 💻 Designed using Intelij
 
 _______________________________________________________
-![jackalope-carr-architects-architecture-hotels-australia-melbourne_dezeen_hero-a-852x480](https://user-images.githubusercontent.com/40407778/114541186-001f4a00-9c1c-11eb-90bf-7aa6e4430080.jpg)
+![unusual-themed-hotels-2-1__880](https://user-images.githubusercontent.com/40407778/114541392-4bd1f380-9c1c-11eb-8ece-909e0339af39.jpg)
+
 
 
 ### Introduction
@@ -104,6 +105,23 @@ Table 1
 ### Notes
  Project will have an additional HTML page with additional explanation on methods and classes
 [link](todo)
+
+### Glossary
+####Guest
+A customer. Someone who wants to book a place to stay. Guest data is provided via a zip download.
+
+####Host
+The accommodation provider. Someone who has a property to rent per night. Host data is provided.
+
+####Location
+A rental property. In Don't Wreck My House, Location and Host are combined. 
+The application enforces a limit on one Location per Host, so we can think of a Host and Location as a single thing.
+
+####Reservation
+One or more days where a Guest has exclusive access to a Location (or Host). Reservation data is provided.
+
+####Adminstrator
+The application user. Guests and Hosts don't book their own Reservations. The Administrator does it for them.
 
 #### Data Information
   
