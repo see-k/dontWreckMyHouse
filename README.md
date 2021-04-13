@@ -62,16 +62,24 @@ To launch the application
  ```diff
  - CLICK IMAGES BELOW TO EXPAND
  ```
-## Sequence Chart
-![Capture](https://user-images.githubusercontent.com/40407778/114239940-5a828700-994c-11eb-91e0-beb4da31f61b.JPG)
-
+   ______________________________________________________________________
+## UML Chart
+ ```diff
+ - Not yet Available
+ ```
 Figure 1
+  ______________________________________________________________________
+## Sequence Chart
+ ```diff
+ - Not yet Available
+ ```
+Figure 2
  ______________________________________________________________________
 ## Flow Chart
-![flowChart (6)](https://user-images.githubusercontent.com/40407778/114236959-fa89e180-9947-11eb-858a-4c65e96baf47.jpg)
-
-
-Figure 2
+ ```diff
+ - CLICK IMAGES BELOW TO EXPAND
+ ```
+Figure 3
  ______________________________________________________________________
 ## Example of Console Execution
 ![consoleExecution](https://user-images.githubusercontent.com/40407778/114225876-809e2c00-9938-11eb-90f3-33a0baf2648c.JPG)
