@@ -81,8 +81,9 @@ ____________________________________________________________________
 
 ## Project Management 
 ```diff
-[Link to Public Trello Board: MO5 Mastery Project](https://trello.com/b/XkHJu36o)
++ Use link below to go to project board
 ```
+[Link to Public Trello Board: MO5 Mastery Project](https://trello.com/b/XkHJu36o)
 
 ## Time Tracker
 
