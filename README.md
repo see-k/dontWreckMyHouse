@@ -117,9 +117,8 @@ Figure 1
 Figure 2
  ______________________________________________________________________
 ## Flow Chart
- ```diff
- - CLICK IMAGES BELOW TO EXPAND
- ```
+![flowChart (6)](https://user-images.githubusercontent.com/40407778/114559910-d113d300-9c31-11eb-827c-71a6f79e31a6.jpg)
+
 Figure 3
 
  ________________________________________________________
