@@ -78,6 +78,10 @@ Figure 2
 
 Figure 3
 ____________________________________________________________________
+
+## Project Management 
+[Link to Public Trello Board: MO5 Mastery Project](https://trello.com/b/XkHJu36o)
+
 ## Time Tracker
 
 |DATE |TASK ID|ESTIMATED TIME (HRS) | START TIME (HRS:MINS)|END TIME (HRS:MINS)| STATUS
