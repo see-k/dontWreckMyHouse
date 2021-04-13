@@ -44,13 +44,10 @@ To launch the application
   * [ ] Get user's `response` to menu
   * [ ] Execute `event` based on user's response
     * [ ] 0: Exit
-    * [ ] 1: View Forgaes by Date
-    * [ ] 2: View Items
-    * [ ] 3: Add a Forage
-    * [ ] 4: Add a Forager
-    * [ ] 5: Add an Item
-    * [ ] 6: Report: Kilogram of Item
-    * [ ] 7: Report: Item Category Value
+    * [ ] 1: View Reservations for host
+    * [ ] 2: Make a reservation
+    * [ ] 3: Edit a reservation
+    * [ ] 4: Cancel a reservation
   * [ ] Call corresponding layer based on requested event 
     * [ ] User Interface
     * [ ] Domain
@@ -107,20 +104,20 @@ Table 1
 [link](todo)
 
 ### Glossary
-####Guest
+- Guest: 
 A customer. Someone who wants to book a place to stay. Guest data is provided via a zip download.
 
-####Host
+- Host:
 The accommodation provider. Someone who has a property to rent per night. Host data is provided.
 
-####Location
+-  Location:
 A rental property. In Don't Wreck My House, Location and Host are combined. 
 The application enforces a limit on one Location per Host, so we can think of a Host and Location as a single thing.
 
-####Reservation
+-  Reservation:
 One or more days where a Guest has exclusive access to a Location (or Host). Reservation data is provided.
 
-####Adminstrator
+- Adminstrator:
 The application user. Guests and Hosts don't book their own Reservations. The Administrator does it for them.
 
 #### Data Information
