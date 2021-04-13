@@ -78,9 +78,9 @@ ____________________________________________________________________
 
 |DATE |TASK ID|ESTIMATED TIME (HRS) | START TIME (HRS:MINS)|END TIME (HRS:MINS)| STATUS
 |:---:| :---: | :---:               | :---:                |:---:              |:---:
-|4.12.2021| Planning & Research | 4              | 2:00 PM | _ | In progress
-|4.13.2021| Setup Packages and models | 1              | _ | _ | Not Started
-|4.13.2021| Implement Repository | 4              | _ | _ | Not Started
+|4.12.2021| Planning & Research | 4              | 2:00 PM | 4:00 PM | Completed
+|4.13.2021| Setup Packages and models | 1              | 10:00 PM  | 10:25 PM | Completed
+|4.13.2021| Implement Repository | 4              | 11:00 PM | _ | In progress
 |4.13.2021| Test Repository| 1            | _ | _ | Not Started
 |4.14.2021| First Progress presentation|0.25  | _ | _ | Not Started
 |4.14.2021| Implement Domain layer | 4              | _ | _ | Not Started
