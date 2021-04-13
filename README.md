@@ -105,9 +105,8 @@ Table 1
  ```
    ______________________________________________________________________
 ## UML Chart
- ```diff
- - Not yet Available
- ```
+![ClassDiagram](https://user-images.githubusercontent.com/40407778/114618692-43ef6f00-9c6f-11eb-8a35-7d40a36be57b.JPG)
+
 Figure 1
   ______________________________________________________________________
 ## Sequence Chart
@@ -117,7 +116,8 @@ Figure 1
 Figure 2
  ______________________________________________________________________
 ## Flow Chart
-![flowChart (6)](https://user-images.githubusercontent.com/40407778/114559910-d113d300-9c31-11eb-827c-71a6f79e31a6.jpg)
+![flowchart](https://user-images.githubusercontent.com/40407778/114618667-3d60f780-9c6f-11eb-8a60-02682c4a2e1b.JPG)
+
 
 Figure 3
 
