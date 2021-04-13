@@ -60,9 +60,8 @@ To launch the application
   
  ______________________________________________________________________
 ## Example of Console Execution
-![sample1](https://user-images.githubusercontent.com/40407778/114549749-036c0300-9c27-11eb-96c0-bc1fbfc7faa7.JPG)
-![sample2](https://user-images.githubusercontent.com/40407778/114549759-05ce5d00-9c27-11eb-86f9-2d966694ca1f.JPG)
-
+![x1](https://user-images.githubusercontent.com/40407778/114550371-b9375180-9c27-11eb-97cb-5cb29e2c95df.JPG)
+![x2](https://user-images.githubusercontent.com/40407778/114550377-bb011500-9c27-11eb-8f87-d313621760e2.JPG)
 
 Figure 3
 ____________________________________________________________________
