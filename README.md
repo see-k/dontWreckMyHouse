@@ -57,29 +57,7 @@ To launch the application
 * [ ] Step 3 (exit)
   * [ ] Exit App if `event` request is 0
   
-   
-  _________________________________________________________________________
- ```diff
- - CLICK IMAGES BELOW TO EXPAND
- ```
-   ______________________________________________________________________
-## UML Chart
- ```diff
- - Not yet Available
- ```
-Figure 1
-  ______________________________________________________________________
-## Sequence Chart
- ```diff
- - Not yet Available
- ```
-Figure 2
- ______________________________________________________________________
-## Flow Chart
- ```diff
- - CLICK IMAGES BELOW TO EXPAND
- ```
-Figure 3
+  
  ______________________________________________________________________
 ## Example of Console Execution
 ![consoleExecution](https://user-images.githubusercontent.com/40407778/114225876-809e2c00-9938-11eb-90f3-33a0baf2648c.JPG)
@@ -116,9 +94,30 @@ ____________________________________________________________________
 |4.17.2021| Update Documentation, Javadoc, HTML page| 0.5| _ | _ | Not Started
 |4.17.2021| Final Test: attempt to break code| 0.5              | _ | _ | Not Started
 
-
 Table 1
 
+  _________________________________________________________________________
+ ```diff
+ - CLICK IMAGES BELOW TO EXPAND
+ ```
+   ______________________________________________________________________
+## UML Chart
+ ```diff
+ - Not yet Available
+ ```
+Figure 1
+  ______________________________________________________________________
+## Sequence Chart
+ ```diff
+ - Not yet Available
+ ```
+Figure 2
+ ______________________________________________________________________
+## Flow Chart
+ ```diff
+ - CLICK IMAGES BELOW TO EXPAND
+ ```
+Figure 3
 
  ________________________________________________________
 ### Notes
