@@ -39,7 +39,7 @@ To launch the application
 #### Code Step Sequence
 * [ ] Step 1 (Set Up)
   * [ ] Print header for introduction
-  * [ ] Show `menu` [0-7]
+  * [ ] Show `menu` [0-4]
 * [ ] Step 2 (Perform event)
   * [ ] Get user's `response` to menu
   * [ ] Execute `event` based on user's response
@@ -82,17 +82,24 @@ ____________________________________________________________________
 
 |DATE |TASK ID|ESTIMATED TIME (HRS) | START TIME (HRS:MINS)|END TIME (HRS:MINS)| STATUS
 |:---:| :---: | :---:               | :---:                |:---:              |:---:
-|4.9.2021| Planning| 4              | 12:28 PM             | 4:00 PM           | Completed
-|4.9.2021| Research | 1              | 4:00 PM | 5:00 PM | Completed
-|4.10.2021| XML | 1              | 10:30 PM | 10:30 PM |Completed
-|4.10.2021| Add a Forager| 2              | 3:00 PM | 4:00 PM | Completed
-|4.10.2021| Report kilograms of each Item collected on one day  | 2             | 7:00 PM | 8:30 PM |Completed
-|4.10.2021| Report total value of each Category collected on one day| 2              | 9:00 PM | 10:17 PM | Completed
-|4.10.2021| Update/Fix missing item | 2              | 7:00 PM | 8:00 PM | Completed
-|4.11.2021| Stretch Goals | 6              | _             | _           | In progress
-|4.11.2021| Update Tests for 100% coverage| 0.5              | _ | _ | Not Started
-|4.12.2021| Update Documentation, Javadoc, HTML page| 0.5              | _ | _ | In progress
-|4.12.2021| Final Test: attempt to break code| 0.5              | _ | _ | Not Started
+|4.12.2021| Planning & Research | 4              | _ | _ | Completed
+|4.13.2021| Setup Packages and models | 1              | _ | _ | Not Started
+|4.13.2021| Implement Repository | 4              | _ | _ | Not Started
+|4.13.2021| Test Repository| 1            | _ | _ | Not Started
+|4.14.2021| First Progress presentation|0.25  | _ | _ | Not Started
+|4.14.2021| Implement Domain layer | 4              | _ | _ | Not Started
+|4.14.2021| Implement Test domain layer | 4              | _ | _ | Not Started
+|4.15.2021| Implement View class | 1              | _ | _ | Not Started
+|4.15.2021| Implement Controller class | 1              | _ | _ | Not Started
+|4.15.2021| Implement App class | 0.5              | _ | _ | Not Started
+|4.15.2021| Spring Annotations | 0.5  | _ | _ | Not Started
+|4.16.2021| Second Progress presentation|0.25  | _ | _ | Not Started
+|4.16.2021| Update Tests for 100% coverage| 0.5 | _ | _ | Not Started
+|4.16.2021| Stretch Goal #1 | 4  | _ | _ | Not Started
+|4.17.2021| Stretch Goal #2 | 4  | _ | _ | Not Started
+|4.17.2021| Bugs: find and fix #1 | 1  | _ | _ | Not Started
+|4.17.2021| Update Documentation, Javadoc, HTML page| 0.5| _ | _ | Not Started
+|4.17.2021| Final Test: attempt to break code| 0.5              | _ | _ | Not Started
 
 
 Table 1
