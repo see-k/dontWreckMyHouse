@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\data\guests.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\hosts.csv">
           <value>
             <Attribute>
@@ -17,7 +24,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\java\learn\reservation\data\GuestFileRepository.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\java\learn\reservation\data\HostFileRepository.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\learn\reservation\data\ReservationFileRepository.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />
@@ -39,6 +60,13 @@
           </value>
         </entry>
         <entry key="\src\main\java\learn\reservation\models\Reservation.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\test\java\learn\reservation\data\HostFileRepositoryTest.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />

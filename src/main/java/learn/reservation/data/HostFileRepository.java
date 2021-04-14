@@ -6,6 +6,7 @@ import java.io.*;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 public class HostFileRepository implements HostRepository {
@@ -20,7 +21,11 @@ public class HostFileRepository implements HostRepository {
 
     @Override
     public Host add(Host host) throws DataException {
-        return null;
+        List<Host> all = findAll();
+        host.setId(UUID.randomUUID().toString());
+        all.add(host);
+        writeAll(all);
+        return host;
     }
 
     @Override
@@ -52,10 +57,11 @@ public class HostFileRepository implements HostRepository {
     }
 
     @Override
-    public List<Host> findByState(String stateAbbr) {
+    public Host findByEmail(String email) {
         return findAll().stream()
-                .filter(i -> i.getState().equalsIgnoreCase(stateAbbr))
-                .collect(Collectors.toList());
+                .filter(i -> i.getEmail().equalsIgnoreCase(email))
+                .findFirst()
+                .orElse(null);
     }
 
     private void writeAll (List<Host> host) throws DataException{

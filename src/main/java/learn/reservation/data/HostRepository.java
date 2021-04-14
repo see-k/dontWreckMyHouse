@@ -11,7 +11,7 @@ public interface HostRepository {
 
     Host findById(String id);
 
-    List<Host> findByState(String stateAbbr);
+    Host findByEmail(String email);
 
     //TODO include update
     //TODO include remove

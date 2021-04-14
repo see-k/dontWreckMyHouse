@@ -34,9 +34,9 @@ class HostFileRepositoryTest {
     }
 
     @Test
-    void findByState() {
+    void findByEmail() {
         HostFileRepository repo = new HostFileRepository("./data/hosts-seed.csv");
-        List<Host> all = repo.findByState("TX");
-        assertEquals(103, all.size());
+        Host all = repo.findByEmail("eyearnes0@sfgate.com");
+        assertEquals("Yearnes", all.getLastName());
     }
 }
