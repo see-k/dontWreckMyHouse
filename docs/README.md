@@ -81,14 +81,14 @@ ____________________________________________________________________
 |4.12.2021| Research | 4              | 2:00 PM | 4:00 PM | Completed
 |4.13.2021| Planning  | 4              | 12:00 PM | 4:00 PM | Completed
 |4.13.2021| Setup Packages and models | 1              | 10:00 AM  | 11:00 AM | Completed
-|4.14.2021| Implement Host Repository | 2              | 9:00 AM | _ | In progress
-|4.14.2021| Implement Guest Repository | 2              | _ | _ | Not Started
+|4.14.2021| Implement Host Repository | 2              | 9:00 AM | 9:43 AM | Completed
+|4.14.2021| Implement Guest Repository | 2              | 10:00 AM | _ | In progress
 |4.14.2021| Implement Reservation Repository | 2              | _ | _ | Not Started
-|4.14.2021| Test Host Repository | 2              | 9:00 AM | _ | In progress
+|4.14.2021| Test Host Repository | 2              | 9:00 AM | 9:30 PM | Completed
 |4.14.2021| Test Guest Repository | 2              | _ | _ | Not Started
 |4.14.2021| Test Reservation Repository | 2              | _ | _ | Not Started
 |4.14.2021| First Progress presentation|0.25  | _ | _ | Not Started
-|4.14.2021| Implement Host Services | 2              | _ | _ | Not Started
+|4.14.2021| Implement Host Services | 2              | | _ | Not Started
 |4.14.2021| Implement Guest Services | 2              | _ | _ | Not Started
 |4.14.2021| Implement Reservation Services | 2              | _ | _ | Not Started
 |4.14.2021| Test Host Services | 2              | _ | _ | Not Started

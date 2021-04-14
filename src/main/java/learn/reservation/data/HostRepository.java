@@ -9,9 +9,9 @@ public interface HostRepository {
 
     List<Host> findAll();
 
-    List<Host> findById();
+    Host findById(String id);
 
-    List<Host> findByState();
+    List<Host> findByState(String stateAbbr);
 
     //TODO include update
     //TODO include remove

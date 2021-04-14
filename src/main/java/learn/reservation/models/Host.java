@@ -1,5 +1,7 @@
 package learn.reservation.models;
 
+import java.math.BigDecimal;
+
 public class Host {
     private String id;
     private String lastName;
@@ -9,8 +11,8 @@ public class Host {
     private String city;
     private String state;
     private int  postalCode;
-    private int standardRate;
-    private int weekendRate;
+    private BigDecimal standardRate;
+    private BigDecimal weekendRate;
 
     public String getId() {
         return id;
@@ -76,19 +78,19 @@ public class Host {
         this.postalCode = postalCode;
     }
 
-    public int getStandardRate() {
+    public BigDecimal getStandardRate() {
         return standardRate;
     }
 
-    public void setStandardRate(int standardRate) {
+    public void setStandardRate(BigDecimal standardRate) {
         this.standardRate = standardRate;
     }
 
-    public int getWeekendRate() {
+    public BigDecimal getWeekendRate() {
         return weekendRate;
     }
 
-    public void setWeekendRate(int weekendRate) {
+    public void setWeekendRate(BigDecimal weekendRate) {
         this.weekendRate = weekendRate;
     }
 

@@ -2,7 +2,11 @@ package learn.reservation.data;
 
 import learn.reservation.models.Host;
 
+import java.io.*;
+import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class HostFileRepository implements HostRepository {
 
@@ -21,23 +25,79 @@ public class HostFileRepository implements HostRepository {
 
     @Override
     public List<Host> findAll() {
-        return null;
+        ArrayList<Host> result = new ArrayList<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+
+            reader.readLine(); // read header
+
+            for (String line = reader.readLine(); line != null; line = reader.readLine()) {
+
+                String[] fields = line.split(",", -1);
+                if (fields.length == 10) {
+                    result.add(deserialize(fields));
+                }
+            }
+        } catch (IOException ex) {
+            // don't throw on read
+        }
+        return result;
     }
 
     @Override
-    public List<Host> findById() {
-        return null;
+    public Host findById(String id) {
+        return findAll().stream()
+                .filter(i -> i.getId().equalsIgnoreCase(id))
+                .findFirst()
+                .orElse(null);
     }
 
     @Override
-    public List<Host> findByState() {
-        return null;
+    public List<Host> findByState(String stateAbbr) {
+        return findAll().stream()
+                .filter(i -> i.getState().equalsIgnoreCase(stateAbbr))
+                .collect(Collectors.toList());
     }
 
-    private void writeAll (List<Host> host) throws DataException{}
+    private void writeAll (List<Host> host) throws DataException{
+        try (PrintWriter writer = new PrintWriter(filePath)) {
 
-    private String serialize (Host host){return  null;}
+            writer.println(HEADER);
 
-    private String deserialize (String[] fields) {return null;}
+            for (Host item : host) {
+                writer.println(serialize(item));
+            }
+        } catch (FileNotFoundException ex) {
+            throw new DataException(ex);
+        }
+    }
+
+    private String serialize (Host host){
+        return String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s", 
+                host.getId(), 
+                host.getLastName(),
+                host.getEmail(),
+                host.getPhone(),
+                host.getAddress(),
+                host.getCity(),
+                host.getState(),
+                host.getPostalCode(),
+                host.getStandardRate(),
+                host.getWeekendRate());
+    }
+
+    private Host deserialize (String[] fields) {
+        Host result = new Host();
+        result.setId(fields[0]);
+        result.setLastName(fields[1]);
+        result.setEmail(fields[2]);
+        result.setPhone(fields[3]);
+        result.setAddress(fields[4]);
+        result.setCity(fields[5]);
+        result.setState(fields[6]);
+        result.setPostalCode(Integer.parseInt(fields[7]));
+        result.setStandardRate(new BigDecimal(fields[8]));
+        result.setWeekendRate(new BigDecimal(fields[9]));
+        return result;
+    }
 
 }
