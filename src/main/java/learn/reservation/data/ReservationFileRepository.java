@@ -6,6 +6,7 @@ import learn.reservation.models.Reservation;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,9 +25,9 @@ public class ReservationFileRepository implements ReservationRepository {
     }
 
     @Override
-    public List<Reservation> findAll() {
+    public List<Reservation> findAll(String hostId) {
         ArrayList<Reservation> result = new ArrayList<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(getFilePath(hostId)))) {
 
             reader.readLine(); // read header
 
@@ -41,6 +42,9 @@ public class ReservationFileRepository implements ReservationRepository {
             // don't throw on read
         }
         return result;
+    }
+    private String getFilePath(String id) {
+        return Paths.get(filePath, id + ".csv").toString();
     }
 
     private Reservation deserialize(String[] fields) {

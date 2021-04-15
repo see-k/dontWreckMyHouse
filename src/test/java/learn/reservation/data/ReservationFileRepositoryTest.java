@@ -20,8 +20,8 @@ class ReservationFileRepositoryTest {
 
     @Test
     void shouldFindAll() {
-        ReservationFileRepository repo = new ReservationFileRepository("./data/reservations/2e72f86c-b8fe-4265-b4f1-304dea8762db.csv");
-        List<Reservation> all = repo.findAll();
+        ReservationFileRepository repo = new ReservationFileRepository("./data/reservations/");
+        List<Reservation> all = repo.findAll("2e72f86c-b8fe-4265-b4f1-304dea8762db");
         assertEquals(12, all.size());
 
 

@@ -88,9 +88,9 @@ ____________________________________________________________________
 |4.14.2021| Test Guest Repository | 2              | 3:00 PM | 3:48 PM | Completed
 |4.14.2021| Test Reservation Repository | 2              | 4:00 PM | 4:40 PM | Completed
 |4.14.2021| First Progress presentation|0.25  | 10:00 AM | 10:15 AM | Completed
-|4.14.2021| Implement Host Services | 2              | | _ | Not Started
+|4.14.2021| Implement Host Services | 2              | 10:30 PM| 11:00 PM | Completed
 |4.14.2021| Implement Guest Services | 2              | _ | _ | Not Started
-|4.14.2021| Implement Reservation Services | 2              | _ | _ | Not Started
+|4.14.2021| Implement Reservation Services | 2              | 10:30 PM | 11:00 PM | Completed
 |4.14.2021| Test Host Services | 2              | _ | _ | Not Started
 |4.14.2021| Test Guest Services | 2              | _ | _ | Not Started
 |4.14.2021| Test Reservation Services | 2              | _ | _ | Not Started
