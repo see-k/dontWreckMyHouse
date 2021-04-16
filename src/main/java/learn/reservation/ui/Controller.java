@@ -4,10 +4,13 @@ import learn.reservation.data.DataException;
 import learn.reservation.domain.GuestService;
 import learn.reservation.domain.HostService;
 import learn.reservation.domain.ReservationService;
+import learn.reservation.domain.Result;
 import learn.reservation.models.Guest;
 import learn.reservation.models.Reservation;
 import org.springframework.stereotype.Component;
 
+import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.List;
 
 @Component
@@ -45,8 +48,7 @@ public class Controller {
                     viewByHost();
                     break;
                 case MAKE_RESERVATION:
-                    view.displayStatus(false, "NOT IMPLEMENTED");
-                    view.enterToContinue();
+                    makeReservation();
                     break;
                 case EDIT_RESERVATION:
                     view.displayStatus(false, "NOT IMPLEMENTED");
@@ -60,6 +62,7 @@ public class Controller {
         } while (option != MainMenuOption.EXIT);
     }
 
+
     private void viewByHost() {
         String email = view.getHostEmail();
         List<Reservation> reservations = reservationService.findByHostEmail(email);
@@ -67,4 +70,27 @@ public class Controller {
         view.displayHostReservations(reservations, guests);
         view.enterToContinue();
     }
+
+    private void makeReservation() throws DataException {
+        List<String> emails = view.getReservationEmails();
+        String guestEmail = emails.get(0), hostEmail = emails.get(1);
+        List<Reservation> reservations = reservationService.findByHostEmail(hostEmail);
+        List<Guest> guests = guestService.findAllGuests();
+        view.displayHostReservations(reservations, guests);
+        List<LocalDate> dates = view.getReservationDates();
+        BigDecimal total = hostService.getTotal(hostEmail, dates);
+        char response = view.displayReservationReport(dates, total);
+        if(response == 'y') {
+            Result<Reservation> result = reservationService.add(emails, dates, total);
+            if (!result.isSuccess()) {
+                view.displayStatus(false, result.getErrorMessages());
+            } else {
+                String successMessage = String.format("Reservation %s created.", result.getPayload().getId());
+                view.displayStatus(true, successMessage);
+            }
+        }
+        view.enterToContinue();
+    }
+
+
 }

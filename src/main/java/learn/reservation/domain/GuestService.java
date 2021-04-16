@@ -3,6 +3,7 @@ package learn.reservation.domain;
 import learn.reservation.data.GuestRepository;
 import learn.reservation.models.Guest;
 import learn.reservation.models.Host;
+import learn.reservation.models.Reservation;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -28,4 +29,5 @@ public class GuestService {
     public Guest findById(int id){
         return repository.findById(id);
     }
+
 }

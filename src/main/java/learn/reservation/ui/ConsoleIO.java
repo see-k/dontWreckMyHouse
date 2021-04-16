@@ -50,6 +50,7 @@ public class ConsoleIO {
         }
     }
 
+
     public double readDouble(String prompt) {
         while (true) {
             try {

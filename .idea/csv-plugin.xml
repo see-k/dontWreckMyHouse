@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\java\learn\reservation\domain\HostService.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\java\learn\reservation\domain\ReservationService.java">
           <value>
             <Attribute>

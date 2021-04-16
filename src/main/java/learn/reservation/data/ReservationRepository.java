@@ -5,7 +5,7 @@ import learn.reservation.models.Reservation;
 import java.util.List;
 
 public interface ReservationRepository {
-    Reservation add(Reservation reservation) throws DataException;
+    Reservation add(Reservation reservation, String hostId) throws DataException;
 
     List<Reservation> findAll(String hostId);
 

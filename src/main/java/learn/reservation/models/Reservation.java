@@ -1,10 +1,14 @@
 package learn.reservation.models;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Reservation {
     private int id;
     private LocalDate startDate;
+    private LocalDate endDate;
+    private int guestId;
+    private BigDecimal total;
 
     public int getId() {
         return id;
@@ -38,15 +42,12 @@ public class Reservation {
         this.guestId = guestId;
     }
 
-    public int getTotal() {
+    public BigDecimal getTotal() {
         return total;
     }
 
-    public void setTotal(int total) {
+    public void setTotal(BigDecimal total) {
         this.total = total;
     }
 
-    private LocalDate endDate;
-    private int guestId;
-    private int total;
 }

@@ -1,13 +1,13 @@
 package learn.reservation.data;
 
+import learn.reservation.models.Host;
 import learn.reservation.models.Reservation;
 import learn.reservation.models.Reservation;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.math.BigDecimal;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -22,8 +22,20 @@ public class ReservationFileRepository implements ReservationRepository {
     }
 
     @Override
-    public Reservation add(Reservation reservation) throws DataException {
-        return null;
+    public Reservation add(Reservation reservation, String hostId) throws DataException {
+        if(reservation == null)
+            return null;
+        List<Reservation> all = findAll(hostId);
+
+        int nextId = all.stream()
+                .mapToInt(Reservation::getId)
+                .max()
+                .orElse(0) + 1;
+        reservation.setId(nextId);
+
+        all.add(reservation);
+        writeAll(all, hostId);
+        return reservation;
     }
 
     @Override
@@ -45,6 +57,7 @@ public class ReservationFileRepository implements ReservationRepository {
         }
         return result;
     }
+
     private String getFilePath(String id) {
         return Paths.get(filePath, id + ".csv").toString();
     }
@@ -63,7 +76,7 @@ public class ReservationFileRepository implements ReservationRepository {
                 ,Integer.parseInt(endDate[1])
                 , Integer.parseInt(endDate[2])));
         reservation.setGuestId(Integer.parseInt(fields[3]));
-        reservation.setTotal(Integer.parseInt(fields[4]));
+        reservation.setTotal(new BigDecimal(fields[4]));
         return  reservation;
     }
 
@@ -75,5 +88,32 @@ public class ReservationFileRepository implements ReservationRepository {
     @Override
     public Reservation delete(Reservation reservation) {
         return null;
+    }
+
+    protected void writeAll(List<Reservation> Reservations, String id ) throws DataException {
+        try (PrintWriter writer = new PrintWriter(getFilePath(id))) {
+
+            writer.println(HEADER);
+
+            if (Reservations == null) {
+                return;
+            }
+
+            for (Reservation Reservation : Reservations) {
+                writer.println(serialize(Reservation));
+            }
+
+        } catch (FileNotFoundException ex) {
+            throw new DataException(ex);
+        }
+    }
+
+    private String serialize(Reservation reservation) {
+        return String.format("%s,%s,%s,%s,%s",
+                reservation.getId(),
+                reservation.getStartDate(),
+                reservation.getEndDate(),
+                reservation.getGuestId(),
+                reservation.getTotal());
     }
 }

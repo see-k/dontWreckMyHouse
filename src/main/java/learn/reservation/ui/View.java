@@ -4,6 +4,9 @@ import learn.reservation.models.Guest;
 import learn.reservation.models.Reservation;
 import org.springframework.stereotype.Component;
 
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
@@ -87,4 +90,31 @@ public class View {
 
          }
 
+    public List<String> getReservationEmails() {
+        displayHeader(MainMenuOption.MAKE_RESERVATION.getMessage());
+        List<String> emails = new ArrayList<>();
+        emails.add(io.readRequiredString("Guest Email: "));
+        emails.add(io.readRequiredString("Host Email: "));
+        return emails;
     }
+
+    public List<LocalDate> getReservationDates() {
+        List<LocalDate> dates = new ArrayList<>();
+        dates.add(io.readLocalDate("Start (mm/dd/yyyy): "));
+        dates.add(io.readLocalDate("End (mm/dd/yyyy): "));
+        return dates;
+    }
+
+    public char displayReservationReport(List<LocalDate> dates, BigDecimal total) {
+        displayHeader("SUMMARY");
+        String response = "";
+        io.printf("Start: %s%nEnd: %s%nTotal: %s%n",
+                dates.get(0),
+                dates.get(1),
+                total);
+        do{
+            response = io.readRequiredString("Is this Okay? [y/n]: ");
+        }while (Character.toLowerCase(response.charAt(0)) != 'y' && Character.toLowerCase(response.charAt(0)) != 'n');
+            return Character.toLowerCase(response.charAt(0));
+    }
+}
