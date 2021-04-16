@@ -88,16 +88,16 @@ ____________________________________________________________________
 |4.14.2021| Test Guest Repository | 2              | 3:00 PM | 3:48 PM | Completed
 |4.14.2021| Test Reservation Repository | 2              | 4:00 PM | 4:40 PM | Completed
 |4.14.2021| First Progress presentation|0.25  | 10:00 AM | 10:15 AM | Completed
-|4.14.2021| Implement Host Services | 2              | 10:30 PM| 11:00 PM | Completed
-|4.14.2021| Implement Guest Services | 2              | _ | _ | Not Started
-|4.14.2021| Implement Reservation Services | 2              | 10:30 PM | 11:00 PM | Completed
-|4.14.2021| Test Host Services | 2              | _ | _ | Not Started
-|4.14.2021| Test Guest Services | 2              | _ | _ | Not Started
-|4.14.2021| Test Reservation Services | 2              | _ | _ | Not Started
-|4.15.2021| Implement View class | 1              | 10:00 AM  | _ | In progress
-|4.15.2021| Implement Controller class | 1              | 10:00 AM | _ | In progress
-|4.15.2021| Implement App class | 0.5              | 10:00 AM | _ | In progress
-|4.15.2021| Spring Annotations | 0.5  | _ | _ | Not Started
+|4.15.2021| Implement Host Services | 2              | 10:30 PM| 11:00 PM | Completed
+|4.15.2021| Implement Guest Services | 2              | 1:30 PM | 2:45 PM | Completed
+|4.15.2021| Implement Reservation Services | 2              | 10:30 PM | 11:00 PM | Completed
+|4.15.2021| Test Host Services | 2              | _ | _ | Not Started
+|4.15.2021| Test Guest Services | 2              | _ | _ | Not Started
+|4.15.2021| Test Reservation Services | 2              | _ | _ | Not Started
+|4.16.2021| Implement View class | 1              | _  | _ | In progress
+|4.16.2021| Implement Controller class | 1              | _ | _  | In progress
+|4.16.2021| Implement App class | 0.5              | 9:00 PM | 9:15 PM | Completed
+|4.16.2021| Spring Annotations | 0.5  | 9:00 PM | 9:05 PM | Completed
 |4.16.2021| Second Progress presentation|0.25  | _ | _ | Not Started
 |4.16.2021| Update Tests for 100% coverage| 0.5 | _ | _ | Not Started
 |4.16.2021| Stretch Goal #1 | 4  | _ | _ | Not Started
