@@ -13,6 +13,8 @@ public interface GuestRepository {
 
     Guest findByEmail(String email);
 
+    Guest findById(int id);
+
     //TODO include update
     //TODO include remove
 }

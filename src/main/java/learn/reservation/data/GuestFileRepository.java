@@ -1,18 +1,20 @@
 package learn.reservation.data;
 
 import learn.reservation.models.Guest;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Repository;
 
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-
+@Repository
 public class GuestFileRepository implements GuestRepository{
     private static final String HEADER = "guest_id,first_name,last_name,email,phone,state";
     private final String filePath;
 
-    public GuestFileRepository(String filePath) {
+    public GuestFileRepository(@Value("${dataFilePathGuest}")String filePath) {
         this.filePath = filePath;
     }
 
@@ -94,6 +96,13 @@ public class GuestFileRepository implements GuestRepository{
     public Guest findByEmail(String email) {
         return findAll().stream()
                 .filter(i -> i.getEmail().equalsIgnoreCase(email))
+                .findFirst()
+                .orElse(null);
+    }
+    @Override
+    public Guest findById(int id) {
+        return findAll().stream()
+                .filter(i -> i.getId() == id)
                 .findFirst()
                 .orElse(null);
     }

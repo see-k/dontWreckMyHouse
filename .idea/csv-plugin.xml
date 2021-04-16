@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\java\learn\reservation\App.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\java\learn\reservation\data\GuestFileRepository.java">
           <value>
             <Attribute>
@@ -67,6 +74,13 @@
           </value>
         </entry>
         <entry key="\src\main\java\learn\reservation\models\Reservation.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\learn\reservation\ui\Controller.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />

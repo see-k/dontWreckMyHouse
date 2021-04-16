@@ -2,7 +2,9 @@ package learn.reservation.domain;
 
 import learn.reservation.data.HostRepository;
 import learn.reservation.models.Host;
+import org.springframework.stereotype.Service;
 
+@Service
 public class HostService {
     private final HostRepository hostRepository;
 

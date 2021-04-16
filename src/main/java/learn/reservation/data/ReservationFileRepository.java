@@ -2,6 +2,8 @@ package learn.reservation.data;
 
 import learn.reservation.models.Reservation;
 import learn.reservation.models.Reservation;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Repository;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -10,12 +12,12 @@ import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-
+@Repository
 public class ReservationFileRepository implements ReservationRepository {
     private static final String HEADER = "id,start_date,end_date,Reservation_id,total";
     private final String filePath;
 
-    public ReservationFileRepository(String filePath) {
+    public ReservationFileRepository(@Value("${dataFilePathReservation}")String filePath) {
         this.filePath = filePath;
     }
 

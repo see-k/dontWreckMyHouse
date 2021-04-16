@@ -5,9 +5,10 @@ import learn.reservation.data.HostRepository;
 import learn.reservation.data.ReservationRepository;
 import learn.reservation.models.Host;
 import learn.reservation.models.Reservation;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class ReservationService {
     private final HostRepository hostRepository;
     private final GuestRepository guestRepository;
@@ -19,9 +20,10 @@ public class ReservationService {
         this.reservationRepository = reservationRepository;
     }
 
-    public List<Reservation> findByEmail(String email)
+    public List<Reservation> findByHostEmail(String email)
     {
         String hostId = hostRepository.findByEmail(email).getId();
         return reservationRepository.findAll(hostId);
     }
+
 }
