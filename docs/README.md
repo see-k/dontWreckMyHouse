@@ -94,9 +94,9 @@ ____________________________________________________________________
 |4.14.2021| Test Host Services | 2              | _ | _ | Not Started
 |4.14.2021| Test Guest Services | 2              | _ | _ | Not Started
 |4.14.2021| Test Reservation Services | 2              | _ | _ | Not Started
-|4.15.2021| Implement View class | 1              | _ | _ | Not Started
-|4.15.2021| Implement Controller class | 1              | _ | _ | Not Started
-|4.15.2021| Implement App class | 0.5              | _ | _ | Not Started
+|4.15.2021| Implement View class | 1              | 10:00 AM  | _ | In progress
+|4.15.2021| Implement Controller class | 1              | 10:00 AM | _ | In progress
+|4.15.2021| Implement App class | 0.5              | 10:00 AM | _ | In progress
 |4.15.2021| Spring Annotations | 0.5  | _ | _ | Not Started
 |4.16.2021| Second Progress presentation|0.25  | _ | _ | Not Started
 |4.16.2021| Update Tests for 100% coverage| 0.5 | _ | _ | Not Started
