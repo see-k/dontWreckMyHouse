@@ -74,7 +74,8 @@ public class View {
              io.printf("ID: %s, %s - %s ",
                      reservation.getId(),
                      reservation.getStartDate(),
-                     reservation.getEndDate());
+                     reservation.getEndDate()
+             );
 
                      for(Guest guest: guests) {
                          if(guest.getId() == reservation.getGuestId()){
@@ -86,9 +87,34 @@ public class View {
                          }
                      }
 
-             }
-
          }
+
+    }
+
+    public void displayGuestReservations(List<Reservation> reservations, Guest guest) {
+        if(reservations == null || reservations.isEmpty()){
+            io.println("No reservations found. Please book one with us!");
+            return;
+        }
+        for(Reservation reservation: reservations){
+                if(reservation.getGuestId() == guest.getId()){
+                    io.printf("ID: %s, %s - %s ",
+                            reservation.getId(),
+                            reservation.getStartDate(),
+                            reservation.getEndDate()
+                    );
+                    io.printf("Guest: %s, %s, Email: %s%n",
+                            guest.getLastName(),
+                            guest.getFirstName(),
+                            guest.getEmail()
+                    );
+                }
+
+        }
+
+    }
+
+
 
     public List<String> getReservationEmails() {
         displayHeader(MainMenuOption.MAKE_RESERVATION.getMessage());

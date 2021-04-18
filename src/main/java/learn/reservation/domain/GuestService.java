@@ -18,7 +18,7 @@ public class GuestService {
         this.repository = repository;
     }
 
-    public Guest findByHostEmail(String email) {
+    public Guest findByGuestEmail(String email) {
         return repository.findByEmail(email);
     }
 

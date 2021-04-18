@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 @Repository
 public class ReservationFileRepository implements ReservationRepository {
-    private static final String HEADER = "id,start_date,end_date,Reservation_id,total";
+    private static final String HEADER = "id,start_date,end_date,guest_id,total";
     private final String filePath;
 
     public ReservationFileRepository(@Value("${dataFilePathReservation}")String filePath) {
@@ -38,6 +38,34 @@ public class ReservationFileRepository implements ReservationRepository {
         return reservation;
     }
 
+    @Override
+    public Reservation update(int guestId, String hostId, List<LocalDate> dates, BigDecimal total) throws DataException{
+        List<Reservation> all = findAll(hostId);
+
+        Reservation toUpdate = all.stream()
+                .filter(i->i.getGuestId() == guestId)
+                .findFirst()
+                .orElse(null);
+        all.remove(toUpdate);
+        toUpdate.setStartDate(dates.get(0));
+        toUpdate.setEndDate(dates.get(1));
+        toUpdate.setTotal(total);
+        all.add(toUpdate);
+        writeAll(all, hostId);
+        return toUpdate;
+    }
+    @Override
+    public Reservation delete(int guestId, String hostId) throws DataException{
+        List<Reservation> all = findAll(hostId);
+
+        Reservation toRemove = all.stream()
+                .filter(i->i.getGuestId() == guestId)
+                .findFirst()
+                .orElse(null);
+        all.remove(toRemove);
+        writeAll(all, hostId);
+        return toRemove;
+    }
     @Override
     public List<Reservation> findAll(String hostId) {
         ArrayList<Reservation> result = new ArrayList<>();
@@ -80,15 +108,7 @@ public class ReservationFileRepository implements ReservationRepository {
         return  reservation;
     }
 
-    @Override
-    public Reservation update(Reservation reservation) {
-        return null;
-    }
 
-    @Override
-    public Reservation delete(Reservation reservation) {
-        return null;
-    }
 
     protected void writeAll(List<Reservation> Reservations, String id ) throws DataException {
         try (PrintWriter writer = new PrintWriter(getFilePath(id))) {

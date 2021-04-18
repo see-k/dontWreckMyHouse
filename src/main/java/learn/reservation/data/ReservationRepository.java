@@ -2,6 +2,8 @@ package learn.reservation.data;
 
 import learn.reservation.models.Reservation;
 
+import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.List;
 
 public interface ReservationRepository {
@@ -9,8 +11,8 @@ public interface ReservationRepository {
 
     List<Reservation> findAll(String hostId);
 
-    Reservation update(Reservation reservation);
+    Reservation update(int guestId, String hostId, List<LocalDate> dates, BigDecimal total) throws DataException;
 
-    Reservation delete(Reservation reservation);
+    Reservation delete(int guestId, String hostId) throws DataException;
 
 }

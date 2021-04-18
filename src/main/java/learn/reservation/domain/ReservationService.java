@@ -41,10 +41,34 @@ public class ReservationService {
 
         Result<Reservation> result = validate(reservation);
 
+
+        result.setPayload(reservationRepository.add(reservation, hostId));
+        return result;
+    }
+
+    public Result<Reservation> update(List<String> emails, List<LocalDate> dates, BigDecimal total) throws DataException {
+        int guestId = guestRepository.findByEmail(emails.get(0)).getId();
+        String hostId = hostRepository.findByEmail(emails.get(1)).getId();
+
+        Reservation update = reservationRepository.update(guestId, hostId, dates, total);
+        Result<Reservation> result = validate(update);
         //TODO validate
         if(!result.isSuccess())
             return result;
-        result.setPayload(reservationRepository.add(reservation, hostId));
+        result.setPayload(update);
+        return result;
+    }
+
+    public Result<Reservation> remove(List<String> emails) throws DataException {
+        int guestId = guestRepository.findByEmail(emails.get(0)).getId();
+        String hostId = hostRepository.findByEmail(emails.get(1)).getId();
+
+        Reservation update = reservationRepository.delete(guestId, hostId);
+        Result<Reservation> result = validate(update);
+        //TODO validate
+        if(!result.isSuccess())
+            return result;
+        result.setPayload(update);
         return result;
     }
 
@@ -61,4 +85,5 @@ public class ReservationService {
         }
         return result;
     }
+
 }

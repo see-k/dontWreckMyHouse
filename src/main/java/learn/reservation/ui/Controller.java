@@ -51,17 +51,14 @@ public class Controller {
                     makeReservation();
                     break;
                 case EDIT_RESERVATION:
-                    view.displayStatus(false, "NOT IMPLEMENTED");
-                    view.enterToContinue();
+                    editReservation();
                     break;
                 case CANCEL_RESERVATION:
-                    view.displayStatus(false, "NOT IMPLEMENTED");
-                    view.enterToContinue();
+                    cancelReservation();
                     break;
             }
         } while (option != MainMenuOption.EXIT);
     }
-
 
     private void viewByHost() {
         String email = view.getHostEmail();
@@ -92,5 +89,41 @@ public class Controller {
         view.enterToContinue();
     }
 
+    private void editReservation() throws DataException {
+        List<String> emails = view.getReservationEmails();
+        String guestEmail = emails.get(0), hostEmail = emails.get(1);
+        Guest guest = guestService.findByGuestEmail(guestEmail);
+        List<Reservation> reservations = reservationService.findByHostEmail(hostEmail);
+        view.displayGuestReservations(reservations, guest);
+        List<LocalDate> dates = view.getReservationDates();
+        BigDecimal total = hostService.getTotal(hostEmail, dates);
+        char response = view.displayReservationReport(dates, total);
+        if(response == 'y') {
+            Result<Reservation> result = reservationService.update(emails, dates, total);
+            if (!result.isSuccess()) {
+                view.displayStatus(false, result.getErrorMessages());
+            } else {
+                String successMessage = "Update was successful";
+                view.displayStatus(true, successMessage);
+            }
+        }
+        view.enterToContinue();
 
+    }
+
+    private void cancelReservation() throws DataException {
+        List<String> emails = view.getReservationEmails();
+        String guestEmail = emails.get(0), hostEmail = emails.get(1);
+        Guest guest = guestService.findByGuestEmail(guestEmail);
+        List<Reservation> reservations = reservationService.findByHostEmail(hostEmail);
+        view.displayGuestReservations(reservations, guest);
+        Result<Reservation> result = reservationService.remove(emails);
+        if (!result.isSuccess()) {
+            view.displayStatus(false, result.getErrorMessages());
+        } else {
+            String successMessage = "Reservation has been cancelled. Book with us again soon!";
+            view.displayStatus(true, successMessage);
+        }
+        view.enterToContinue();
+    }
 }
