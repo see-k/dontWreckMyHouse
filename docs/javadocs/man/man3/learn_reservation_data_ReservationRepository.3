@@ -1,0 +1,55 @@
+.TH "learn.reservation.data.ReservationRepository" 3 "Mon Apr 19 2021" "Version prj_v1_file" "Mastery Project for Dev10" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+learn.reservation.data.ReservationRepository
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBlearn\&.reservation\&.data\&.ReservationFileRepository\fP, and \fBlearn\&.reservation\&.data\&.ReservationRepositoryDouble\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBReservation\fP \fBadd\fP (\fBReservation\fP reservation, String hostId)  throws DataException"
+.br
+.ti -1c
+.RI "List< \fBReservation\fP > \fBfindAll\fP (String hostId)"
+.br
+.ti -1c
+.RI "\fBReservation\fP \fBupdate\fP (\fBReservation\fP reservation, String hostId)  throws DataException"
+.br
+.ti -1c
+.RI "\fBReservation\fP \fBdelete\fP (int reservationId, String hostId)  throws DataException"
+.br
+.ti -1c
+.RI "List< \fBReservation\fP > \fBfindGuestReservations\fP (int reservationId, List< \fBHost\fP > hosts)"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBReservation\fP learn\&.reservation\&.data\&.ReservationRepository\&.add (\fBReservation\fP reservation, String hostId) throws \fBDataException\fP"
+
+.PP
+Implemented in \fBlearn\&.reservation\&.data\&.ReservationRepositoryDouble\fP, and \fBlearn\&.reservation\&.data\&.ReservationFileRepository\fP\&.
+.SS "\fBReservation\fP learn\&.reservation\&.data\&.ReservationRepository\&.delete (int reservationId, String hostId) throws \fBDataException\fP"
+
+.PP
+Implemented in \fBlearn\&.reservation\&.data\&.ReservationFileRepository\fP, and \fBlearn\&.reservation\&.data\&.ReservationRepositoryDouble\fP\&.
+.SS "List<\fBReservation\fP> learn\&.reservation\&.data\&.ReservationRepository\&.findAll (String hostId)"
+
+.PP
+Implemented in \fBlearn\&.reservation\&.data\&.ReservationFileRepository\fP, and \fBlearn\&.reservation\&.data\&.ReservationRepositoryDouble\fP\&.
+.SS "List<\fBReservation\fP> learn\&.reservation\&.data\&.ReservationRepository\&.findGuestReservations (int reservationId, List< \fBHost\fP > hosts)"
+
+.PP
+Implemented in \fBlearn\&.reservation\&.data\&.ReservationFileRepository\fP, and \fBlearn\&.reservation\&.data\&.ReservationRepositoryDouble\fP\&.
+.SS "\fBReservation\fP learn\&.reservation\&.data\&.ReservationRepository\&.update (\fBReservation\fP reservation, String hostId) throws \fBDataException\fP"
+
+.PP
+Implemented in \fBlearn\&.reservation\&.data\&.ReservationRepositoryDouble\fP, and \fBlearn\&.reservation\&.data\&.ReservationFileRepository\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mastery Project for Dev10 from the source code\&.

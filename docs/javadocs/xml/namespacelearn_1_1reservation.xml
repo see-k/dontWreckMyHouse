@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacelearn_1_1reservation" kind="namespace" language="Java">
+    <compoundname>learn::reservation</compoundname>
+    <innerclass refid="classlearn_1_1reservation_1_1_app" prot="public">learn::reservation::App</innerclass>
+    <innernamespace refid="namespacelearn_1_1reservation_1_1data">learn::reservation::data</innernamespace>
+    <innernamespace refid="namespacelearn_1_1reservation_1_1domain">learn::reservation::domain</innernamespace>
+    <innernamespace refid="namespacelearn_1_1reservation_1_1models">learn::reservation::models</innernamespace>
+    <innernamespace refid="namespacelearn_1_1reservation_1_1ui">learn::reservation::ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/App.java" line="12" column="15"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1ui_1_1_controller" kind="class" language="Java" prot="public">
+    <compoundname>learn::reservation::ui::Controller</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_controller_1a17c26e613be6b96cb38c24ece641c466" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classlearn_1_1reservation_1_1domain_1_1_host_service" kindref="compound">HostService</ref></type>
+        <definition>final HostService learn.reservation.ui.Controller.hostService</definition>
+        <argsstring></argsstring>
+        <name>hostService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="19" column="31" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_controller_1ac3d483545ea9754e617fa5efa3d28c10" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classlearn_1_1reservation_1_1domain_1_1_guest_service" kindref="compound">GuestService</ref></type>
+        <definition>final GuestService learn.reservation.ui.Controller.guestService</definition>
+        <argsstring></argsstring>
+        <name>guestService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="20" column="32" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_controller_1ad76ebeb6716a79eed194b6b1c3153145" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service" kindref="compound">ReservationService</ref></type>
+        <definition>final ReservationService learn.reservation.ui.Controller.reservationService</definition>
+        <argsstring></argsstring>
+        <name>reservationService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="21" column="38" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_controller_1a49754e993b8e8548203e98ea547c79c1" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classlearn_1_1reservation_1_1ui_1_1_view" kindref="compound">View</ref></type>
+        <definition>final View learn.reservation.ui.Controller.view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="22" column="24" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1acd7ae81f4dcd5fae1b48bb5bf9d7d5b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>learn.reservation.ui.Controller.Controller</definition>
+        <argsstring>(HostService hostService, GuestService guestService, ReservationService reservationService, View view)</argsstring>
+        <name>Controller</name>
+        <param>
+          <type><ref refid="classlearn_1_1reservation_1_1domain_1_1_host_service" kindref="compound">HostService</ref></type>
+          <declname>hostService</declname>
+        </param>
+        <param>
+          <type><ref refid="classlearn_1_1reservation_1_1domain_1_1_guest_service" kindref="compound">GuestService</ref></type>
+          <declname>guestService</declname>
+        </param>
+        <param>
+          <type><ref refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service" kindref="compound">ReservationService</ref></type>
+          <declname>reservationService</declname>
+        </param>
+        <param>
+          <type><ref refid="classlearn_1_1reservation_1_1ui_1_1_view" kindref="compound">View</ref></type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="25" column="12" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1abe461e4834ed7fbda1b1a91858b5c3af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.Controller.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="32" column="17" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="32" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1a81f143c6d5a9a0b1296b20d3c79641bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.Controller.runAppLoop</definition>
+        <argsstring>()</argsstring>
+        <name>runAppLoop</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="42" column="18" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="42" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1afc48f92774d0f7a5ed0a7de5f81f310b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.Controller.viewByState</definition>
+        <argsstring>()</argsstring>
+        <name>viewByState</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="69" column="18" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="69" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1aab884ff37b1358713a378bb448de224e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.Controller.viewByGuest</definition>
+        <argsstring>()</argsstring>
+        <name>viewByGuest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="85" column="18" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="85" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1ad30a827337eb901c396bfc1de5c12145" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.Controller.viewByHost</definition>
+        <argsstring>()</argsstring>
+        <name>viewByHost</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="101" column="18" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="101" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1a8d3559056c94c8858d92203b3d98de8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.Controller.makeReservation</definition>
+        <argsstring>()</argsstring>
+        <name>makeReservation</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="117" column="18" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="117" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1a187fe4b5135197a1f646fd460f2c91e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.Controller.editReservation</definition>
+        <argsstring>()</argsstring>
+        <name>editReservation</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="146" column="18" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="146" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1ab10bb2497d5dfc891ef530f3c37b43aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.Controller.cancelReservation</definition>
+        <argsstring>()</argsstring>
+        <name>cancelReservation</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="176" column="18" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="176" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_controller_1a503beb18780ce67d22b04da2ba7c6bfa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref></type>
+        <definition>Reservation learn.reservation.ui.Controller.makeUpdate</definition>
+        <argsstring>(int id, List&lt; LocalDate &gt; dates, BigDecimal total)</argsstring>
+        <name>makeUpdate</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>List&lt; LocalDate &gt;</type>
+          <declname>dates</declname>
+        </param>
+        <param>
+          <type>BigDecimal</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/Controller.java" line="198" column="25" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="198" bodyend="206"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/ui/Controller.java" line="18" column="24" bodyfile="src/main/java/learn/reservation/ui/Controller.java" bodystart="18" bodyend="208"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1ab10bb2497d5dfc891ef530f3c37b43aa" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>cancelReservation</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1acd7ae81f4dcd5fae1b48bb5bf9d7d5b6" prot="public" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>Controller</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a187fe4b5135197a1f646fd460f2c91e9" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>editReservation</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1ac3d483545ea9754e617fa5efa3d28c10" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>guestService</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a17c26e613be6b96cb38c24ece641c466" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>hostService</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a8d3559056c94c8858d92203b3d98de8f" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>makeReservation</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a503beb18780ce67d22b04da2ba7c6bfa" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>makeUpdate</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1ad76ebeb6716a79eed194b6b1c3153145" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>reservationService</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1abe461e4834ed7fbda1b1a91858b5c3af" prot="public" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>run</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a81f143c6d5a9a0b1296b20d3c79641bb" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>runAppLoop</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a49754e993b8e8548203e98ea547c79c1" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>view</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1aab884ff37b1358713a378bb448de224e" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>viewByGuest</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1ad30a827337eb901c396bfc1de5c12145" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>viewByHost</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1afc48f92774d0f7a5ed0a7de5f81f310b" prot="private" virt="non-virtual"><scope>learn::reservation::ui::Controller</scope><name>viewByState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

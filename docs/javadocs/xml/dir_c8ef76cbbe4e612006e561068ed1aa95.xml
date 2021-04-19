@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_c8ef76cbbe4e612006e561068ed1aa95" kind="dir">
+    <compoundname>src/main/java/learn/reservation</compoundname>
+    <innerdir refid="dir_12cab61d0f33549def55b7559dca72a2">src/main/java/learn/reservation/data</innerdir>
+    <innerdir refid="dir_011e8e73aff44c61587c8586ef53260e">src/main/java/learn/reservation/domain</innerdir>
+    <innerdir refid="dir_9352a3b3ad9629a28ca107fdb3274eeb">src/main/java/learn/reservation/models</innerdir>
+    <innerdir refid="dir_685a82a24d6a53ecef8e1f62acc85ad2">src/main/java/learn/reservation/ui</innerdir>
+    <innerfile refid="_app_8java">App.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/"/>
+  </compounddef>
+</doxygen>

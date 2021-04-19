@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interfacelearn_1_1reservation_1_1data_1_1_guest_repository" kind="interface" language="Java" prot="public">
+    <compoundname>learn::reservation::data::GuestRepository</compoundname>
+    <derivedcompoundref refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository" prot="public" virt="non-virtual">learn.reservation.data.GuestFileRepository</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacelearn_1_1reservation_1_1data_1_1_guest_repository_1a95481c08f50bcc17798a9d76fd84ca2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="classlearn_1_1reservation_1_1models_1_1_guest" kindref="compound">Guest</ref> &gt;</type>
+        <definition>List&lt;Guest&gt; learn.reservation.data.GuestRepository.findAll</definition>
+        <argsstring>()</argsstring>
+        <name>findAll</name>
+        <reimplementedby refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_1a714b0f4b4a72109360657939edefc44d">findAll</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/GuestRepository.java" line="10" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacelearn_1_1reservation_1_1data_1_1_guest_repository_1a929aed484c7ae7a37ef9b8bd0c2fc6e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classlearn_1_1reservation_1_1models_1_1_guest" kindref="compound">Guest</ref></type>
+        <definition>Guest learn.reservation.data.GuestRepository.findByEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>findByEmail</name>
+        <reimplementedby refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_1af58a42ba36cda0c48534e5ad4eb2ff5b">findByEmail</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/GuestRepository.java" line="12" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>learn.reservation.data.GuestFileRepository</label>
+        <link refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>learn.reservation.data.GuestRepository</label>
+        <link refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository"/>
+      </node>
+    </inheritancegraph>
+    <location file="src/main/java/learn/reservation/data/GuestRepository.java" line="9" column="33" bodyfile="src/main/java/learn/reservation/data/GuestRepository.java" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository_1a95481c08f50bcc17798a9d76fd84ca2d" prot="public" virt="non-virtual"><scope>learn::reservation::data::GuestRepository</scope><name>findAll</name></member>
+      <member refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository_1a929aed484c7ae7a37ef9b8bd0c2fc6e8" prot="public" virt="non-virtual"><scope>learn::reservation::data::GuestRepository</scope><name>findByEmail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

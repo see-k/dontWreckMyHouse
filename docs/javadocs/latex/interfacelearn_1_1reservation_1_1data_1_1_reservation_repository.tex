@@ -1,0 +1,72 @@
+\hypertarget{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository}{}\doxysection{learn.\+reservation.\+data.\+Reservation\+Repository Interface Reference}
+\label{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository}\index{learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}}
+
+
+Inheritance diagram for learn.\+reservation.\+data.\+Reservation\+Repository\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} \mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a8b44167ed08a27e4f0cc0ada668c4dc2}{add}} (\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} reservation, String host\+Id)  throws Data\+Exception
+\item 
+List$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} $>$ \mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_ac93c226ce17b5a58adaa92f3b0dd35c1}{find\+All}} (String host\+Id)
+\item 
+\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} \mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a1af716d4f5474cd7ea42557f26da35fd}{update}} (\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} reservation, String host\+Id)  throws Data\+Exception
+\item 
+\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} \mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a4af60aa478a53705716ceea94555d87b}{delete}} (int reservation\+Id, String host\+Id)  throws Data\+Exception
+\item 
+List$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} $>$ \mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a0ba837b68cb9758222c64e990f30af47}{find\+Guest\+Reservations}} (int reservation\+Id, List$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_host}{Host}} $>$ hosts)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a8b44167ed08a27e4f0cc0ada668c4dc2}\label{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a8b44167ed08a27e4f0cc0ada668c4dc2}} 
+\index{learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}!add@{add}}
+\index{add@{add}!learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} learn.\+reservation.\+data.\+Reservation\+Repository.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}}]{reservation,  }\item[{String}]{host\+Id }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_data_exception}{Data\+Exception}}}
+
+
+
+Implemented in \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_a94c503a104a368e3461fe22b4a64830d}{learn.\+reservation.\+data.\+Reservation\+Repository\+Double}}, and \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_a4b74f0f7bdfd68f5d1482c50b15bbf70}{learn.\+reservation.\+data.\+Reservation\+File\+Repository}}.
+
+\mbox{\Hypertarget{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a4af60aa478a53705716ceea94555d87b}\label{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a4af60aa478a53705716ceea94555d87b}} 
+\index{learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}!delete@{delete}}
+\index{delete@{delete}!learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}}
+\doxysubsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} learn.\+reservation.\+data.\+Reservation\+Repository.\+delete (\begin{DoxyParamCaption}\item[{int}]{reservation\+Id,  }\item[{String}]{host\+Id }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_data_exception}{Data\+Exception}}}
+
+
+
+Implemented in \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_a811e2deef0e70068b3bcace75a84874e}{learn.\+reservation.\+data.\+Reservation\+File\+Repository}}, and \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_a6d4aaf91cf04aecae0a0154039b18856}{learn.\+reservation.\+data.\+Reservation\+Repository\+Double}}.
+
+\mbox{\Hypertarget{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_ac93c226ce17b5a58adaa92f3b0dd35c1}\label{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_ac93c226ce17b5a58adaa92f3b0dd35c1}} 
+\index{learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}!findAll@{findAll}}
+\index{findAll@{findAll}!learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}}
+\doxysubsubsection{\texorpdfstring{findAll()}{findAll()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}$>$ learn.\+reservation.\+data.\+Reservation\+Repository.\+find\+All (\begin{DoxyParamCaption}\item[{String}]{host\+Id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_aa92403805c18753d163973bdd70973e3}{learn.\+reservation.\+data.\+Reservation\+File\+Repository}}, and \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_aacfea925e01183c5e7e19cd0592e08f0}{learn.\+reservation.\+data.\+Reservation\+Repository\+Double}}.
+
+\mbox{\Hypertarget{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a0ba837b68cb9758222c64e990f30af47}\label{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a0ba837b68cb9758222c64e990f30af47}} 
+\index{learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}!findGuestReservations@{findGuestReservations}}
+\index{findGuestReservations@{findGuestReservations}!learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}}
+\doxysubsubsection{\texorpdfstring{findGuestReservations()}{findGuestReservations()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}$>$ learn.\+reservation.\+data.\+Reservation\+Repository.\+find\+Guest\+Reservations (\begin{DoxyParamCaption}\item[{int}]{reservation\+Id,  }\item[{List$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_host}{Host}} $>$}]{hosts }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_ad35ba8a842f48bbdeff68ca450a75a1f}{learn.\+reservation.\+data.\+Reservation\+File\+Repository}}, and \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_a16d65510fea49531f05e812870a44f1c}{learn.\+reservation.\+data.\+Reservation\+Repository\+Double}}.
+
+\mbox{\Hypertarget{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a1af716d4f5474cd7ea42557f26da35fd}\label{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_a1af716d4f5474cd7ea42557f26da35fd}} 
+\index{learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}!update@{update}}
+\index{update@{update}!learn.reservation.data.ReservationRepository@{learn.reservation.data.ReservationRepository}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} learn.\+reservation.\+data.\+Reservation\+Repository.\+update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}}]{reservation,  }\item[{String}]{host\+Id }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_data_exception}{Data\+Exception}}}
+
+
+
+Implemented in \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_aed9f00155228d7cdc887c8655bc0ecd4}{learn.\+reservation.\+data.\+Reservation\+Repository\+Double}}, and \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_ad6decea128f07b1f01f3ac8278b24318}{learn.\+reservation.\+data.\+Reservation\+File\+Repository}}.
+

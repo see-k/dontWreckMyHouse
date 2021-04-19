@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Capsule project</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Chike Okonta </para>
+</simplesect>
+<simplesect kind="version"><para>1.0.1 </para>
+</simplesect>
+<simplesect kind="since"><para>04/19/2021 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

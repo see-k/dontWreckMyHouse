@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1models_1_1_host" kind="class" language="Java" prot="public">
+    <compoundname>learn::reservation::models::Host</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1ae33be1a21efd97f3417b5b7f6c5eec32" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="6" column="20" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1ad347dee19234e0e5945a1db5fee06d5f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.lastName</definition>
+        <argsstring></argsstring>
+        <name>lastName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="7" column="20" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1ac2a38e41860bb6b6ffe0cd08166b1de1" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="8" column="20" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1ac2dedbb5db8c43a0930be46a6c7368e5" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.phone</definition>
+        <argsstring></argsstring>
+        <name>phone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="9" column="20" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1ac274098b37d7e44cdf75ba2659bd07a3" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="10" column="20" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1aec0531db44bf5c5bdf93f4d1622a868c" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.city</definition>
+        <argsstring></argsstring>
+        <name>city</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="11" column="20" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1a694f7dd76d5e36c265ab0bd0cbb0a2cf" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="12" column="20" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1a3a7e14945d2aab21222ff412d955685c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int learn.reservation.models.Host.postalCode</definition>
+        <argsstring></argsstring>
+        <name>postalCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="13" column="18" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1a8ad95f55bb50e7296267a5fb88b6076e" prot="private" static="no" mutable="no">
+        <type>BigDecimal</type>
+        <definition>BigDecimal learn.reservation.models.Host.standardRate</definition>
+        <argsstring></argsstring>
+        <name>standardRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="14" column="24" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_host_1a8f6bad5ff719f97ab7041ddf6e8ebe1e" prot="private" static="no" mutable="no">
+        <type>BigDecimal</type>
+        <definition>BigDecimal learn.reservation.models.Host.weekendRate</definition>
+        <argsstring></argsstring>
+        <name>weekendRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="15" column="24" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1ab48d86490a740b2b5fe0a144eaa551cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="17" column="19" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1ad361f82e5adce8ad9357c7c980cc75a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setId</definition>
+        <argsstring>(String id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="21" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a0579265b9d6c933a8ef494da39a72592" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.getLastName</definition>
+        <argsstring>()</argsstring>
+        <name>getLastName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="25" column="19" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1aace9e862903079a1f003a25b49c356cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setLastName</definition>
+        <argsstring>(String lastName)</argsstring>
+        <name>setLastName</name>
+        <param>
+          <type>String</type>
+          <declname>lastName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="29" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a55fee39394c734d91470f60114295346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.getEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="33" column="19" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1ab6040089020b84ef219ec4ee17753d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="37" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a42ffaca06738aec9fdb7c5edd2384666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.getPhone</definition>
+        <argsstring>()</argsstring>
+        <name>getPhone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="41" column="19" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a3cef32aca8a18205b8e7bc86c5815313" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setPhone</definition>
+        <argsstring>(String phone)</argsstring>
+        <name>setPhone</name>
+        <param>
+          <type>String</type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="45" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a8d156ca9d87ae02ac97f32c8a687fad6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.getAddress</definition>
+        <argsstring>()</argsstring>
+        <name>getAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="49" column="19" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1ac672633223dd34465484285816a07643" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setAddress</definition>
+        <argsstring>(String address)</argsstring>
+        <name>setAddress</name>
+        <param>
+          <type>String</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="53" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1ae1f15b81e70782638cbc3d5af0ec86f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.getCity</definition>
+        <argsstring>()</argsstring>
+        <name>getCity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="57" column="19" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1aab5526edfb3e540297604d693a43629e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setCity</definition>
+        <argsstring>(String city)</argsstring>
+        <name>setCity</name>
+        <param>
+          <type>String</type>
+          <declname>city</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="61" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a79fd89891fc9901bde28ae0062eefbcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.models.Host.getState</definition>
+        <argsstring>()</argsstring>
+        <name>getState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="65" column="19" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a4135cfadbd875d1e0b6e5c266850d821" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setState</definition>
+        <argsstring>(String state)</argsstring>
+        <name>setState</name>
+        <param>
+          <type>String</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="69" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a421ca1d451497fc451c5a481999e45de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int learn.reservation.models.Host.getPostalCode</definition>
+        <argsstring>()</argsstring>
+        <name>getPostalCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="73" column="16" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a6279e78c0c784f150621d516638f07a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setPostalCode</definition>
+        <argsstring>(int postalCode)</argsstring>
+        <name>setPostalCode</name>
+        <param>
+          <type>int</type>
+          <declname>postalCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="77" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="77" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1ae955feee0aa791f669317ccdd280dd0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BigDecimal</type>
+        <definition>BigDecimal learn.reservation.models.Host.getStandardRate</definition>
+        <argsstring>()</argsstring>
+        <name>getStandardRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="81" column="23" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a5cdc1609b2ad00d8bb81ca9e3c5a6589" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setStandardRate</definition>
+        <argsstring>(BigDecimal standardRate)</argsstring>
+        <name>setStandardRate</name>
+        <param>
+          <type>BigDecimal</type>
+          <declname>standardRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="85" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1abc600cfb3b6afbbe5ddf24fa141c23c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BigDecimal</type>
+        <definition>BigDecimal learn.reservation.models.Host.getWeekendRate</definition>
+        <argsstring>()</argsstring>
+        <name>getWeekendRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="89" column="23" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_host_1a7ca16e83927fb48da8dad28174664cc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Host.setWeekendRate</definition>
+        <argsstring>(BigDecimal weekendRate)</argsstring>
+        <name>setWeekendRate</name>
+        <param>
+          <type>BigDecimal</type>
+          <declname>weekendRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Host.java" line="93" column="17" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="93" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/models/Host.java" line="5" column="18" bodyfile="src/main/java/learn/reservation/models/Host.java" bodystart="5" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ac274098b37d7e44cdf75ba2659bd07a3" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>address</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1aec0531db44bf5c5bdf93f4d1622a868c" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>city</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ac2a38e41860bb6b6ffe0cd08166b1de1" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>email</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a8d156ca9d87ae02ac97f32c8a687fad6" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getAddress</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ae1f15b81e70782638cbc3d5af0ec86f1" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getCity</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a55fee39394c734d91470f60114295346" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getEmail</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ab48d86490a740b2b5fe0a144eaa551cf" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getId</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a0579265b9d6c933a8ef494da39a72592" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getLastName</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a42ffaca06738aec9fdb7c5edd2384666" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getPhone</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a421ca1d451497fc451c5a481999e45de" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getPostalCode</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ae955feee0aa791f669317ccdd280dd0f" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getStandardRate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a79fd89891fc9901bde28ae0062eefbcb" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getState</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1abc600cfb3b6afbbe5ddf24fa141c23c4" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>getWeekendRate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ae33be1a21efd97f3417b5b7f6c5eec32" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>id</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ad347dee19234e0e5945a1db5fee06d5f" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>lastName</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ac2dedbb5db8c43a0930be46a6c7368e5" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>phone</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a3a7e14945d2aab21222ff412d955685c" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>postalCode</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ac672633223dd34465484285816a07643" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setAddress</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1aab5526edfb3e540297604d693a43629e" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setCity</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ab6040089020b84ef219ec4ee17753d0b" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setEmail</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ad361f82e5adce8ad9357c7c980cc75a6" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setId</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1aace9e862903079a1f003a25b49c356cb" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setLastName</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a3cef32aca8a18205b8e7bc86c5815313" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setPhone</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a6279e78c0c784f150621d516638f07a8" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setPostalCode</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a5cdc1609b2ad00d8bb81ca9e3c5a6589" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setStandardRate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a4135cfadbd875d1e0b6e5c266850d821" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setState</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a7ca16e83927fb48da8dad28174664cc1" prot="public" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>setWeekendRate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a8ad95f55bb50e7296267a5fb88b6076e" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>standardRate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a694f7dd76d5e36c265ab0bd0cbb0a2cf" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>state</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a8f6bad5ff719f97ab7041ddf6e8ebe1e" prot="private" virt="non-virtual"><scope>learn::reservation::models::Host</scope><name>weekendRate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

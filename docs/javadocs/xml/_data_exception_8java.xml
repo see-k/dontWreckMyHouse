@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_data_exception_8java" kind="file" language="Java">
+    <compoundname>DataException.java</compoundname>
+    <innerclass refid="classlearn_1_1reservation_1_1data_1_1_data_exception" prot="public">learn::reservation::data::DataException</innerclass>
+    <innernamespace refid="namespacelearn_1_1reservation_1_1data">learn::reservation::data</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacelearn_1_1reservation_1_1data" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">learn.reservation.data;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classlearn_1_1reservation_1_1data_1_1_data_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception_1aef01ad6c1930da377ba0f0401615f98d" kindref="member">DataException</ref>(String<sp/>message)<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(message);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception_1aef01ad6c1930da377ba0f0401615f98d" kindref="member">DataException</ref>(Throwable<sp/>cause)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(cause);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception_1aef01ad6c1930da377ba0f0401615f98d" kindref="member">DataException</ref>(String<sp/>message,<sp/>Throwable<sp/>cause)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(message,<sp/>cause);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main/java/learn/reservation/data/DataException.java"/>
+  </compounddef>
+</doxygen>

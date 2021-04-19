@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1ui_1_1_console_i_o" kind="class" language="Java" prot="public">
+    <compoundname>learn::reservation::ui::ConsoleIO</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a5cdf5ffafa10749f8e53f9d0d9f420d1" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.ui.ConsoleIO.INVALID_NUMBER</definition>
+        <argsstring></argsstring>
+        <name>INVALID_NUMBER</name>
+        <initializer>= &quot;[INVALID] Enter a valid number.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="14" column="33" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1aae5bd979ea4368c541a6f26d3f717ad1" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.ui.ConsoleIO.NUMBER_OUT_OF_RANGE</definition>
+        <argsstring></argsstring>
+        <name>NUMBER_OUT_OF_RANGE</name>
+        <initializer>= &quot;[INVALID] Enter a number between %s and %s.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="16" column="33" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a111bebb12883edab99297f7a41e73172" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.ui.ConsoleIO.REQUIRED</definition>
+        <argsstring></argsstring>
+        <name>REQUIRED</name>
+        <initializer>= &quot;[INVALID] Value is required.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="18" column="33" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1ab8ac56b56ab79dc06603956801a5e85a" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.ui.ConsoleIO.INVALID_DATE</definition>
+        <argsstring></argsstring>
+        <name>INVALID_DATE</name>
+        <initializer>= &quot;[INVALID] Enter a date in MM/dd/yyyy format.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="20" column="33" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a4e47e8f962ffc3239f9b8f0593e95b89" prot="private" static="no" mutable="no">
+        <type>final Scanner</type>
+        <definition>final Scanner learn.reservation.ui.ConsoleIO.scanner</definition>
+        <argsstring></argsstring>
+        <name>scanner</name>
+        <initializer>= new Scanner(System.in)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="23" column="27" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1ac5b0c62badbc93eda422c8fddd8310b4" prot="private" static="no" mutable="no">
+        <type>DateTimeFormatter</type>
+        <definition>DateTimeFormatter learn.reservation.ui.ConsoleIO.formatter</definition>
+        <argsstring></argsstring>
+        <name>formatter</name>
+        <initializer>= DateTimeFormatter.ofPattern(&quot;MM/dd/yyyy&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="24" column="31" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a398b3b32c76f62640d272874b824ff1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.ConsoleIO.print</definition>
+        <argsstring>(String message)</argsstring>
+        <name>print</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="26" column="17" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a03d0ab83d3d5a07a1cc9e5582f8262b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.ConsoleIO.println</definition>
+        <argsstring>(String message)</argsstring>
+        <name>println</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="30" column="17" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1adfa583ffe2578819c3b0f9529bcd1636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.ui.ConsoleIO.printf</definition>
+        <argsstring>(String format, Object... values)</argsstring>
+        <name>printf</name>
+        <param>
+          <type>String</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>Object...</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="34" column="17" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a2bd6fce2ee4e90dbb0887f9f9da31ef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.ui.ConsoleIO.readString</definition>
+        <argsstring>(String prompt)</argsstring>
+        <name>readString</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="38" column="19" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1aacb3d4a12a95e111249ce4c31aa51009" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.ui.ConsoleIO.readRequiredString</definition>
+        <argsstring>(String prompt)</argsstring>
+        <name>readRequiredString</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="43" column="19" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="43" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a75495a666c6289a6e06febc21f85b7c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double learn.reservation.ui.ConsoleIO.readDouble</definition>
+        <argsstring>(String prompt)</argsstring>
+        <name>readDouble</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="54" column="19" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="54" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a1f3b11b06f4bed113913f8470a3a9b56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double learn.reservation.ui.ConsoleIO.readDouble</definition>
+        <argsstring>(String prompt, double min, double max)</argsstring>
+        <name>readDouble</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="64" column="19" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="64" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a7934fe105a721252a69d2121577c2bd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int learn.reservation.ui.ConsoleIO.readInt</definition>
+        <argsstring>(String prompt)</argsstring>
+        <name>readInt</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="74" column="16" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="74" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a8245b5c16102c37d955911cea8085a00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int learn.reservation.ui.ConsoleIO.readInt</definition>
+        <argsstring>(String prompt, int min, int max)</argsstring>
+        <name>readInt</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="84" column="16" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="84" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1aa8f3a909cc9c2824a7bf39e63a120a29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean learn.reservation.ui.ConsoleIO.readBoolean</definition>
+        <argsstring>(String prompt)</argsstring>
+        <name>readBoolean</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="94" column="20" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="94" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a0a3fa5ce20b7b4e3a22256f49ab81d5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LocalDate</type>
+        <definition>LocalDate learn.reservation.ui.ConsoleIO.readLocalDate</definition>
+        <argsstring>(String prompt)</argsstring>
+        <name>readLocalDate</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="106" column="22" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="106" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a58b1618b5ac1e80aa772f375c28cc533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BigDecimal</type>
+        <definition>BigDecimal learn.reservation.ui.ConsoleIO.readBigDecimal</definition>
+        <argsstring>(String prompt)</argsstring>
+        <name>readBigDecimal</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="117" column="23" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="117" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a24b57f24d9c5a53fa03b614dc2c18d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BigDecimal</type>
+        <definition>BigDecimal learn.reservation.ui.ConsoleIO.readBigDecimal</definition>
+        <argsstring>(String prompt, BigDecimal min, BigDecimal max)</argsstring>
+        <name>readBigDecimal</name>
+        <param>
+          <type>String</type>
+          <declname>prompt</declname>
+        </param>
+        <param>
+          <type>BigDecimal</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>BigDecimal</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="128" column="23" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="128" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="12" column="23" bodyfile="src/main/java/learn/reservation/ui/ConsoleIO.java" bodystart="12" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1ac5b0c62badbc93eda422c8fddd8310b4" prot="private" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>formatter</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1ab8ac56b56ab79dc06603956801a5e85a" prot="private" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>INVALID_DATE</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a5cdf5ffafa10749f8e53f9d0d9f420d1" prot="private" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>INVALID_NUMBER</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1aae5bd979ea4368c541a6f26d3f717ad1" prot="private" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>NUMBER_OUT_OF_RANGE</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a398b3b32c76f62640d272874b824ff1a" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>print</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1adfa583ffe2578819c3b0f9529bcd1636" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>printf</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a03d0ab83d3d5a07a1cc9e5582f8262b6" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>println</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a58b1618b5ac1e80aa772f375c28cc533" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readBigDecimal</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a24b57f24d9c5a53fa03b614dc2c18d4d" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readBigDecimal</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1aa8f3a909cc9c2824a7bf39e63a120a29" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readBoolean</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a75495a666c6289a6e06febc21f85b7c3" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readDouble</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a1f3b11b06f4bed113913f8470a3a9b56" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readDouble</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a7934fe105a721252a69d2121577c2bd6" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readInt</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a8245b5c16102c37d955911cea8085a00" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readInt</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a0a3fa5ce20b7b4e3a22256f49ab81d5f" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readLocalDate</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1aacb3d4a12a95e111249ce4c31aa51009" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readRequiredString</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a2bd6fce2ee4e90dbb0887f9f9da31ef8" prot="public" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>readString</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a111bebb12883edab99297f7a41e73172" prot="private" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>REQUIRED</name></member>
+      <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a4e47e8f962ffc3239f9b8f0593e95b89" prot="private" virt="non-virtual"><scope>learn::reservation::ui::ConsoleIO</scope><name>scanner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

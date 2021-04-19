@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_011e8e73aff44c61587c8586ef53260e" kind="dir">
+    <compoundname>src/main/java/learn/reservation/domain</compoundname>
+    <innerfile refid="_guest_service_8java">GuestService.java</innerfile>
+    <innerfile refid="_host_service_8java">HostService.java</innerfile>
+    <innerfile refid="_reservation_service_8java">ReservationService.java</innerfile>
+    <innerfile refid="_response_8java">Response.java</innerfile>
+    <innerfile refid="_result_8java">Result.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/domain/"/>
+  </compounddef>
+</doxygen>

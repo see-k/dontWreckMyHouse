@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option" kind="enum" language="Java" prot="public">
+    <compoundname>learn::reservation::ui::MainMenuOption</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a953f7ec784ab04c8cf1d4b30e75c8084" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>learn.reservation.ui.MainMenuOption.EXIT</definition>
+        <argsstring></argsstring>
+        <name>EXIT</name>
+        <initializer>=(0, &quot;Exit&quot;, false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="5" column="1" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1ad65e91368ad2acc365d82f067c1bb2af" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>learn.reservation.ui.MainMenuOption.VIEW_RESERVATIONS_FOR_HOST</definition>
+        <argsstring></argsstring>
+        <name>VIEW_RESERVATIONS_FOR_HOST</name>
+        <initializer>=(1, &quot;View Reservations for Host&quot;, false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="6" column="1" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a47c655981903c4848056748fcd4e3a92" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>learn.reservation.ui.MainMenuOption.MAKE_RESERVATION</definition>
+        <argsstring></argsstring>
+        <name>MAKE_RESERVATION</name>
+        <initializer>=(2, &quot;Make a <ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref>&quot;, false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="7" column="1" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a17fdd34f534e1138146d16b29b716eb1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>learn.reservation.ui.MainMenuOption.EDIT_RESERVATION</definition>
+        <argsstring></argsstring>
+        <name>EDIT_RESERVATION</name>
+        <initializer>=(3, &quot;Edit a <ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref>&quot;, false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="8" column="1" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a9a99bc5e15651c6e6ddf0877e0c84ca7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>learn.reservation.ui.MainMenuOption.CANCEL_RESERVATION</definition>
+        <argsstring></argsstring>
+        <name>CANCEL_RESERVATION</name>
+        <initializer>=(4, &quot;Cancel a <ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref>&quot;, false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="9" column="1" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a2ec81c4bb5b2e543fec2f250554dfe60" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>learn.reservation.ui.MainMenuOption.VIEW_RESERVATIONS_FOR_GUEST</definition>
+        <argsstring></argsstring>
+        <name>VIEW_RESERVATIONS_FOR_GUEST</name>
+        <initializer>=(5, &quot;View Reservations for <ref refid="classlearn_1_1reservation_1_1models_1_1_guest" kindref="compound">Guest</ref>&quot;, false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="10" column="1" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a19bc712ed7396df8d309293c7760af97" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>learn.reservation.ui.MainMenuOption.VIEW_RESERVATIONS_BY_STATE</definition>
+        <argsstring></argsstring>
+        <name>VIEW_RESERVATIONS_BY_STATE</name>
+        <initializer>=(6, &quot;View Reservations by State&quot;, false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="11" column="1" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1aebb6b0e14c101a21442ddb0f1372bb74" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int learn.reservation.ui.MainMenuOption.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="13" column="17" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a9b24a5551b39c14843ec0f0f08c561e4" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String learn.reservation.ui.MainMenuOption.message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="14" column="20" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a8a121fa85ed08019213f6dda7df75815" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean learn.reservation.ui.MainMenuOption.hidden</definition>
+        <argsstring></argsstring>
+        <name>hidden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="15" column="21" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a6a1c5f0eba7a4d7e02c84f4706643a27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>learn.reservation.ui.MainMenuOption.MainMenuOption</definition>
+        <argsstring>(int value, String message, boolean hidden)</argsstring>
+        <name>MainMenuOption</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>hidden</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="17" column="13" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="17" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a4f2a8c369fb768e47425b8f5d7abae24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option" kindref="compound">MainMenuOption</ref></type>
+        <definition>static MainMenuOption learn.reservation.ui.MainMenuOption.fromValue</definition>
+        <argsstring>(int value)</argsstring>
+        <name>fromValue</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="23" column="34" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="23" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a0dcb38503efb4ea47f90bfc3e645e78d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int learn.reservation.ui.MainMenuOption.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="32" column="16" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1abe2f9e79ca5f5c7e43221d3b2af4fcab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String learn.reservation.ui.MainMenuOption.getMessage</definition>
+        <argsstring>()</argsstring>
+        <name>getMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="36" column="19" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a96d4b8e7ee2254434329bd6459d2b3aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean learn.reservation.ui.MainMenuOption.isHidden</definition>
+        <argsstring>()</argsstring>
+        <name>isHidden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="40" column="20" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/ui/MainMenuOption.java" line="3" column="27" bodyfile="src/main/java/learn/reservation/ui/MainMenuOption.java" bodystart="3" bodyend="43"/>
+    <listofallmembers>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a9a99bc5e15651c6e6ddf0877e0c84ca7" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>CANCEL_RESERVATION</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a17fdd34f534e1138146d16b29b716eb1" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>EDIT_RESERVATION</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a953f7ec784ab04c8cf1d4b30e75c8084" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>EXIT</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a4f2a8c369fb768e47425b8f5d7abae24" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>fromValue</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1abe2f9e79ca5f5c7e43221d3b2af4fcab" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>getMessage</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a0dcb38503efb4ea47f90bfc3e645e78d" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>getValue</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a8a121fa85ed08019213f6dda7df75815" prot="private" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>hidden</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a96d4b8e7ee2254434329bd6459d2b3aa" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>isHidden</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a6a1c5f0eba7a4d7e02c84f4706643a27" prot="private" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>MainMenuOption</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a47c655981903c4848056748fcd4e3a92" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>MAKE_RESERVATION</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a9b24a5551b39c14843ec0f0f08c561e4" prot="private" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>message</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1aebb6b0e14c101a21442ddb0f1372bb74" prot="private" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>value</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a19bc712ed7396df8d309293c7760af97" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>VIEW_RESERVATIONS_BY_STATE</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a2ec81c4bb5b2e543fec2f250554dfe60" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>VIEW_RESERVATIONS_FOR_GUEST</name></member>
+      <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1ad65e91368ad2acc365d82f067c1bb2af" prot="public" virt="non-virtual"><scope>learn::reservation::ui::MainMenuOption</scope><name>VIEW_RESERVATIONS_FOR_HOST</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

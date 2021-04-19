@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1domain_1_1_host_service" kind="class" language="Java" prot="public">
+    <compoundname>learn::reservation::domain::HostService</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_host_service_1a964cc5d64c199a7981b9877f0748f1b9" prot="private" static="no" mutable="no">
+        <type>final <ref refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository" kindref="compound">HostRepository</ref></type>
+        <definition>final HostRepository learn.reservation.domain.HostService.hostRepository</definition>
+        <argsstring></argsstring>
+        <name>hostRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/HostService.java" line="15" column="34" bodyfile="src/main/java/learn/reservation/domain/HostService.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_host_service_1a4745383b8ee4febcbada9c9405cd5755" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>learn.reservation.domain.HostService.HostService</definition>
+        <argsstring>(HostRepository hostRepository)</argsstring>
+        <name>HostService</name>
+        <param>
+          <type><ref refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository" kindref="compound">HostRepository</ref></type>
+          <declname>hostRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/HostService.java" line="17" column="12" bodyfile="src/main/java/learn/reservation/domain/HostService.java" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_host_service_1a81747cde679716f9d2f2cc09f12b1cb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classlearn_1_1reservation_1_1models_1_1_host" kindref="compound">Host</ref></type>
+        <definition>Host learn.reservation.domain.HostService.findByEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>findByEmail</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/HostService.java" line="21" column="17" bodyfile="src/main/java/learn/reservation/domain/HostService.java" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_host_service_1af46c5bb38084e53f8ecc07bec41dd46a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BigDecimal</type>
+        <definition>BigDecimal learn.reservation.domain.HostService.getTotal</definition>
+        <argsstring>(String hostEmail, List&lt; LocalDate &gt; dates)</argsstring>
+        <name>getTotal</name>
+        <param>
+          <type>String</type>
+          <declname>hostEmail</declname>
+        </param>
+        <param>
+          <type>List&lt; LocalDate &gt;</type>
+          <declname>dates</declname>
+        </param>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref>  </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/HostService.java" line="25" column="23" bodyfile="src/main/java/learn/reservation/domain/HostService.java" bodystart="25" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/domain/HostService.java" line="14" column="25" bodyfile="src/main/java/learn/reservation/domain/HostService.java" bodystart="14" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_host_service_1a81747cde679716f9d2f2cc09f12b1cb4" prot="public" virt="non-virtual"><scope>learn::reservation::domain::HostService</scope><name>findByEmail</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_host_service_1af46c5bb38084e53f8ecc07bec41dd46a" prot="public" virt="non-virtual"><scope>learn::reservation::domain::HostService</scope><name>getTotal</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_host_service_1a964cc5d64c199a7981b9877f0748f1b9" prot="private" virt="non-virtual"><scope>learn::reservation::domain::HostService</scope><name>hostRepository</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_host_service_1a4745383b8ee4febcbada9c9405cd5755" prot="public" virt="non-virtual"><scope>learn::reservation::domain::HostService</scope><name>HostService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

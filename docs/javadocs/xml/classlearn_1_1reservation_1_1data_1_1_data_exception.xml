@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1data_1_1_data_exception" kind="class" language="Java" prot="public">
+    <compoundname>learn::reservation::data::DataException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_data_exception_1aef01ad6c1930da377ba0f0401615f98d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>learn.reservation.data.DataException.DataException</definition>
+        <argsstring>(String message)</argsstring>
+        <name>DataException</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/DataException.java" line="5" column="12" bodyfile="src/main/java/learn/reservation/data/DataException.java" bodystart="5" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_data_exception_1a867bf53b5fc8a430c31abceebb1e1682" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>learn.reservation.data.DataException.DataException</definition>
+        <argsstring>(Throwable cause)</argsstring>
+        <name>DataException</name>
+        <param>
+          <type>Throwable</type>
+          <declname>cause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/DataException.java" line="9" column="12" bodyfile="src/main/java/learn/reservation/data/DataException.java" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_data_exception_1ac44d9fddf4f96e50d78d2128733d1f8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>learn.reservation.data.DataException.DataException</definition>
+        <argsstring>(String message, Throwable cause)</argsstring>
+        <name>DataException</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Throwable</type>
+          <declname>cause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/DataException.java" line="13" column="12" bodyfile="src/main/java/learn/reservation/data/DataException.java" bodystart="13" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>learn.reservation.data.DataException</label>
+        <link refid="classlearn_1_1reservation_1_1data_1_1_data_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>learn.reservation.data.DataException</label>
+        <link refid="classlearn_1_1reservation_1_1data_1_1_data_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/java/learn/reservation/data/DataException.java" line="3" column="37" bodyfile="src/main/java/learn/reservation/data/DataException.java" bodystart="3" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_data_exception_1aef01ad6c1930da377ba0f0401615f98d" prot="public" virt="non-virtual"><scope>learn::reservation::data::DataException</scope><name>DataException</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_data_exception_1a867bf53b5fc8a430c31abceebb1e1682" prot="public" virt="non-virtual"><scope>learn::reservation::data::DataException</scope><name>DataException</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_data_exception_1ac44d9fddf4f96e50d78d2128733d1f8c" prot="public" virt="non-virtual"><scope>learn::reservation::data::DataException</scope><name>DataException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

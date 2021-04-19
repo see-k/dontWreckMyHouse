@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_685a82a24d6a53ecef8e1f62acc85ad2" kind="dir">
+    <compoundname>src/main/java/learn/reservation/ui</compoundname>
+    <innerfile refid="_console_i_o_8java">ConsoleIO.java</innerfile>
+    <innerfile refid="_controller_8java">Controller.java</innerfile>
+    <innerfile refid="_main_menu_option_8java">MainMenuOption.java</innerfile>
+    <innerfile refid="_view_8java">View.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/ui/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="classlearn_1_1reservation_1_1_app" kind="class"><name>learn::reservation::App</name>
+    <member refid="classlearn_1_1reservation_1_1_app_1a20b878d8f4657850f36444475b52b2d3" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o" kind="class"><name>learn::reservation::ui::ConsoleIO</name>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a5cdf5ffafa10749f8e53f9d0d9f420d1" kind="variable"><name>INVALID_NUMBER</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1aae5bd979ea4368c541a6f26d3f717ad1" kind="variable"><name>NUMBER_OUT_OF_RANGE</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a111bebb12883edab99297f7a41e73172" kind="variable"><name>REQUIRED</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1ab8ac56b56ab79dc06603956801a5e85a" kind="variable"><name>INVALID_DATE</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a4e47e8f962ffc3239f9b8f0593e95b89" kind="variable"><name>scanner</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1ac5b0c62badbc93eda422c8fddd8310b4" kind="variable"><name>formatter</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a398b3b32c76f62640d272874b824ff1a" kind="function"><name>print</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a03d0ab83d3d5a07a1cc9e5582f8262b6" kind="function"><name>println</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1adfa583ffe2578819c3b0f9529bcd1636" kind="function"><name>printf</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a2bd6fce2ee4e90dbb0887f9f9da31ef8" kind="function"><name>readString</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1aacb3d4a12a95e111249ce4c31aa51009" kind="function"><name>readRequiredString</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a75495a666c6289a6e06febc21f85b7c3" kind="function"><name>readDouble</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a1f3b11b06f4bed113913f8470a3a9b56" kind="function"><name>readDouble</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a7934fe105a721252a69d2121577c2bd6" kind="function"><name>readInt</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a8245b5c16102c37d955911cea8085a00" kind="function"><name>readInt</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1aa8f3a909cc9c2824a7bf39e63a120a29" kind="function"><name>readBoolean</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a0a3fa5ce20b7b4e3a22256f49ab81d5f" kind="function"><name>readLocalDate</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a58b1618b5ac1e80aa772f375c28cc533" kind="function"><name>readBigDecimal</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o_1a24b57f24d9c5a53fa03b614dc2c18d4d" kind="function"><name>readBigDecimal</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1ui_1_1_controller" kind="class"><name>learn::reservation::ui::Controller</name>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a17c26e613be6b96cb38c24ece641c466" kind="variable"><name>hostService</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1ac3d483545ea9754e617fa5efa3d28c10" kind="variable"><name>guestService</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1ad76ebeb6716a79eed194b6b1c3153145" kind="variable"><name>reservationService</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a49754e993b8e8548203e98ea547c79c1" kind="variable"><name>view</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1acd7ae81f4dcd5fae1b48bb5bf9d7d5b6" kind="function"><name>Controller</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1abe461e4834ed7fbda1b1a91858b5c3af" kind="function"><name>run</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a81f143c6d5a9a0b1296b20d3c79641bb" kind="function"><name>runAppLoop</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1afc48f92774d0f7a5ed0a7de5f81f310b" kind="function"><name>viewByState</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1aab884ff37b1358713a378bb448de224e" kind="function"><name>viewByGuest</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1ad30a827337eb901c396bfc1de5c12145" kind="function"><name>viewByHost</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a8d3559056c94c8858d92203b3d98de8f" kind="function"><name>makeReservation</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a187fe4b5135197a1f646fd460f2c91e9" kind="function"><name>editReservation</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1ab10bb2497d5dfc891ef530f3c37b43aa" kind="function"><name>cancelReservation</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_controller_1a503beb18780ce67d22b04da2ba7c6bfa" kind="function"><name>makeUpdate</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kind="class"><name>learn::reservation::data::DataException</name>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_data_exception_1aef01ad6c1930da377ba0f0401615f98d" kind="function"><name>DataException</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_data_exception_1a867bf53b5fc8a430c31abceebb1e1682" kind="function"><name>DataException</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_data_exception_1ac44d9fddf4f96e50d78d2128733d1f8c" kind="function"><name>DataException</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1models_1_1_guest" kind="class"><name>learn::reservation::models::Guest</name>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1a9ef4bd7713d99d45c1b69fe182176051" kind="variable"><name>id</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1a82838f8b8eaf71b9bc30f73ff9b8c3af" kind="variable"><name>firstName</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1a9e24b11f59290e279bcba672a0062328" kind="variable"><name>lastName</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1a64a3fb1db692c79581f1ecffc7f0a1b6" kind="variable"><name>email</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1ae532c5928b8fa7e34766763a47ca8bc8" kind="variable"><name>phone</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1aa92e3c596070fb1c02deb60267ba5b01" kind="variable"><name>state</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1a58fed9d96c516db8184594fc90aacc16" kind="function"><name>getId</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1a400266d12498162605cfe444acb03dcc" kind="function"><name>setId</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1ac9a31abc813af23433253a3b504896ce" kind="function"><name>getFirstName</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1abe32759b9e1a518c5db434f328a9fa81" kind="function"><name>setFirstName</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1a54841c49b3e363d764196d6cdca81cea" kind="function"><name>getLastName</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1af523927e841a0a027ea80a3fea5ab9fc" kind="function"><name>setLastName</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1a357c34addd00072c7f5721079d34aa30" kind="function"><name>getEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1ab2c9a5c1d78f00c7c5c51ff38dff6280" kind="function"><name>setEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1aa920d45160bce7ad7053017ca9389d05" kind="function"><name>getPhone</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1aa084a060f7e626e940b794a7f935d448" kind="function"><name>setPhone</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1aa3886b887644aec54e19168212c658cc" kind="function"><name>getState</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_guest_1a16612808b49bab86744c3eb5ebd55dd8" kind="function"><name>setState</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository" kind="class"><name>learn::reservation::data::GuestFileRepository</name>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_1a735783972903c7bdbf811dfd382db69f" kind="variable"><name>HEADER</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_1ac75fe20442e86b9d00e385cb66dcdb25" kind="variable"><name>filePath</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_1a11e9b3e4c3b3245f15f20a2207396332" kind="function"><name>GuestFileRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_1a714b0f4b4a72109360657939edefc44d" kind="function"><name>findAll</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_1af58a42ba36cda0c48534e5ad4eb2ff5b" kind="function"><name>findByEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_1ae2acecdfe00e1583b59df89623c934e6" kind="function"><name>deserialize</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_test" kind="class"><name>learn::reservation::data::GuestFileRepositoryTest</name>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_test_1a21861c6227afa5e5bbb4447f25623fc3" kind="variable"><name>SEED_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_test_1a236229db7c5567d84fdca51e97666f97" kind="variable"><name>TEST_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_test_1a4bd476248fbc45d23a4b3795392c4f62" kind="variable"><name>repo</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_test_1a588aa20027855d633054fd51bf5099de" kind="function"><name>setup</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_test_1ac2fbcda497fc0d4e8ae83ebd8bd823ad" kind="function"><name>shouldFindAll</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_test_1a889a3355f43061e6f2104aba3c334367" kind="function"><name>findByEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_test_1a5b90cd262c89da09ca3dfe651a0cfbf3" kind="function"><name>makeGuest</name></member>
+  </compound>
+  <compound refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository" kind="interface"><name>learn::reservation::data::GuestRepository</name>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository_1a95481c08f50bcc17798a9d76fd84ca2d" kind="function"><name>findAll</name></member>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository_1a929aed484c7ae7a37ef9b8bd0c2fc6e8" kind="function"><name>findByEmail</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1domain_1_1_guest_service" kind="class"><name>learn::reservation::domain::GuestService</name>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1af74f924ff86d0a107f1b8c37bed34a2c" kind="variable"><name>repository</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a4b51cf7941048914d6fa81e034ca9bad" kind="function"><name>GuestService</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a191f244fc697b9b049f09d3503df30dc" kind="function"><name>findByGuestEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a9b51dcfae5dd2e9ae19c4a8ee1709fc0" kind="function"><name>findAllGuests</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1models_1_1_host" kind="class"><name>learn::reservation::models::Host</name>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ae33be1a21efd97f3417b5b7f6c5eec32" kind="variable"><name>id</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ad347dee19234e0e5945a1db5fee06d5f" kind="variable"><name>lastName</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ac2a38e41860bb6b6ffe0cd08166b1de1" kind="variable"><name>email</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ac2dedbb5db8c43a0930be46a6c7368e5" kind="variable"><name>phone</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ac274098b37d7e44cdf75ba2659bd07a3" kind="variable"><name>address</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1aec0531db44bf5c5bdf93f4d1622a868c" kind="variable"><name>city</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a694f7dd76d5e36c265ab0bd0cbb0a2cf" kind="variable"><name>state</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a3a7e14945d2aab21222ff412d955685c" kind="variable"><name>postalCode</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a8ad95f55bb50e7296267a5fb88b6076e" kind="variable"><name>standardRate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a8f6bad5ff719f97ab7041ddf6e8ebe1e" kind="variable"><name>weekendRate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ab48d86490a740b2b5fe0a144eaa551cf" kind="function"><name>getId</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ad361f82e5adce8ad9357c7c980cc75a6" kind="function"><name>setId</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a0579265b9d6c933a8ef494da39a72592" kind="function"><name>getLastName</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1aace9e862903079a1f003a25b49c356cb" kind="function"><name>setLastName</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a55fee39394c734d91470f60114295346" kind="function"><name>getEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ab6040089020b84ef219ec4ee17753d0b" kind="function"><name>setEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a42ffaca06738aec9fdb7c5edd2384666" kind="function"><name>getPhone</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a3cef32aca8a18205b8e7bc86c5815313" kind="function"><name>setPhone</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a8d156ca9d87ae02ac97f32c8a687fad6" kind="function"><name>getAddress</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ac672633223dd34465484285816a07643" kind="function"><name>setAddress</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ae1f15b81e70782638cbc3d5af0ec86f1" kind="function"><name>getCity</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1aab5526edfb3e540297604d693a43629e" kind="function"><name>setCity</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a79fd89891fc9901bde28ae0062eefbcb" kind="function"><name>getState</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a4135cfadbd875d1e0b6e5c266850d821" kind="function"><name>setState</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a421ca1d451497fc451c5a481999e45de" kind="function"><name>getPostalCode</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a6279e78c0c784f150621d516638f07a8" kind="function"><name>setPostalCode</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1ae955feee0aa791f669317ccdd280dd0f" kind="function"><name>getStandardRate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a5cdc1609b2ad00d8bb81ca9e3c5a6589" kind="function"><name>setStandardRate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1abc600cfb3b6afbbe5ddf24fa141c23c4" kind="function"><name>getWeekendRate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_host_1a7ca16e83927fb48da8dad28174664cc1" kind="function"><name>setWeekendRate</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository" kind="class"><name>learn::reservation::data::HostFileRepository</name>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a1b4b59e2d9ad0e59d9253b21cf89496f" kind="variable"><name>HEADER</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a89d368e9e00b262a371b9239e7149feb" kind="variable"><name>filePath</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a14df16dbe80429c381910b8c06ad8f8d" kind="function"><name>HostFileRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a2f87dfd227db42a338a38a26e55870a9" kind="function"><name>findAll</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a506f347eb5c78ffaed2be3eb925ff635" kind="function"><name>findById</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a8c4821cc6d716144d110e669a5472f2f" kind="function"><name>findByEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1aa06c5bfc75dd1277d8b8d2d819812dea" kind="function"><name>deserialize</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test" kind="class"><name>learn::reservation::data::HostFileRepositoryTest</name>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1ae74e051eb68e3a7262a30191989e95d6" kind="function"><name>setUp</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a8bce87a069c9565842b97e9c5c4188ac" kind="function"><name>add</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a4751082ac338193706367d8bd70cc07c" kind="function"><name>ShouldFindAll</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a528cb9fbd5b048c4383bea2859a30e30" kind="function"><name>ShouldFindById</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a68b4db6e7760a20073e22cfdde5e3f3b" kind="function"><name>findByEmail</name></member>
+  </compound>
+  <compound refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository" kind="interface"><name>learn::reservation::data::HostRepository</name>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository_1a14fcfca5948734cae188ecc065393a75" kind="function"><name>findAll</name></member>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository_1a6862d0596d56ddcc8685b186c1ebb4fd" kind="function"><name>findById</name></member>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository_1a971267e8a896d932bd02dcda49edd408" kind="function"><name>findByEmail</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1domain_1_1_host_service" kind="class"><name>learn::reservation::domain::HostService</name>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_host_service_1a964cc5d64c199a7981b9877f0748f1b9" kind="variable"><name>hostRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_host_service_1a4745383b8ee4febcbada9c9405cd5755" kind="function"><name>HostService</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_host_service_1a81747cde679716f9d2f2cc09f12b1cb4" kind="function"><name>findByEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_host_service_1af46c5bb38084e53f8ecc07bec41dd46a" kind="function"><name>getTotal</name></member>
+  </compound>
+  <compound refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option" kind="enum"><name>learn::reservation::ui::MainMenuOption</name>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a953f7ec784ab04c8cf1d4b30e75c8084" kind="variable"><name>EXIT</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1ad65e91368ad2acc365d82f067c1bb2af" kind="variable"><name>VIEW_RESERVATIONS_FOR_HOST</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a47c655981903c4848056748fcd4e3a92" kind="variable"><name>MAKE_RESERVATION</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a17fdd34f534e1138146d16b29b716eb1" kind="variable"><name>EDIT_RESERVATION</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a9a99bc5e15651c6e6ddf0877e0c84ca7" kind="variable"><name>CANCEL_RESERVATION</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a2ec81c4bb5b2e543fec2f250554dfe60" kind="variable"><name>VIEW_RESERVATIONS_FOR_GUEST</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a19bc712ed7396df8d309293c7760af97" kind="variable"><name>VIEW_RESERVATIONS_BY_STATE</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1aebb6b0e14c101a21442ddb0f1372bb74" kind="variable"><name>value</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a9b24a5551b39c14843ec0f0f08c561e4" kind="variable"><name>message</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a8a121fa85ed08019213f6dda7df75815" kind="variable"><name>hidden</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a6a1c5f0eba7a4d7e02c84f4706643a27" kind="function"><name>MainMenuOption</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a4f2a8c369fb768e47425b8f5d7abae24" kind="function"><name>fromValue</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a0dcb38503efb4ea47f90bfc3e645e78d" kind="function"><name>getValue</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1abe2f9e79ca5f5c7e43221d3b2af4fcab" kind="function"><name>getMessage</name></member>
+    <member refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option_1a96d4b8e7ee2254434329bd6459d2b3aa" kind="function"><name>isHidden</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1models_1_1_reservation" kind="class"><name>learn::reservation::models::Reservation</name>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1ad1d4dae59fe3c33ccb83afdbb55e40f4" kind="variable"><name>id</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a65815ef2a1568cfa1cf6c06f629f3ef4" kind="variable"><name>startDate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a1ed0a1c31ba55fbdf759013fce567a86" kind="variable"><name>endDate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1af246766da01b448ad5f60e573bfef6ba" kind="variable"><name>guestId</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a04ae6317f8d99bb49cd893cb4bd78f8d" kind="variable"><name>total</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a6f3230d0af97b46b2bc9f346424d6512" kind="function"><name>getId</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a520b789ea9c08e3b217d665eb038b544" kind="function"><name>setId</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a6169bade29ed0bb80ec6ea0953cd8ce0" kind="function"><name>getStartDate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a4db1ae99cdb4eeeea26a879fdeb5206a" kind="function"><name>setStartDate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1ab33950a9628f206baa1bbb4a4ae06400" kind="function"><name>getEndDate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a51855e1b17f9ecdde3e8c5942c529440" kind="function"><name>setEndDate</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1ac8a6f84564f957d3688dbe7ba5d69807" kind="function"><name>getGuestId</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a74fc08d4aba88a0d499f6cd7164af83d" kind="function"><name>setGuestId</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1accf317c2c67fa4991724dc290af82f4b" kind="function"><name>getTotal</name></member>
+    <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a0a637cc86bd74cccd9c750d1ceef3fac" kind="function"><name>setTotal</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository" kind="class"><name>learn::reservation::data::ReservationFileRepository</name>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1a901bd6f486f34f5378c05dbe998f3486" kind="variable"><name>HEADER</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1aa2c2c76c1b1774784658d4dd57fb492b" kind="variable"><name>filePath</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1a6e0cb9d693e2cf2a22e49624670f89fc" kind="function"><name>ReservationFileRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1a4b74f0f7bdfd68f5d1482c50b15bbf70" kind="function"><name>add</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1ad6decea128f07b1f01f3ac8278b24318" kind="function"><name>update</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1a811e2deef0e70068b3bcace75a84874e" kind="function"><name>delete</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1aa92403805c18753d163973bdd70973e3" kind="function"><name>findAll</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1ad35ba8a842f48bbdeff68ca450a75a1f" kind="function"><name>findGuestReservations</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1a595bcf2c72344e287e50fc90a2d0f5bf" kind="function"><name>getFilePath</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1a6166db985f3ff5b04f1b5200ba0ece77" kind="function"><name>deserialize</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1a0c3f3b396615fe1459f11e2384c70739" kind="function"><name>serialize</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_1ad7a03583498df50652b1bad163e2f5c9" kind="function"><name>writeAll</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test" kind="class"><name>learn::reservation::data::ReservationFileRepositoryTest</name>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test_1a86ee01777dc8f7a1638ecce90058603f" kind="variable"><name>SEED_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test_1a9429498df12aabf9b4d6a7a31d38771e" kind="variable"><name>TEST_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test_1aac08ce10bb6a0248365c477b2d8a8580" kind="variable"><name>repository</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test_1aa191f4dcaae613e1fa4f72134c8f4534" kind="variable"><name>id</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test_1a6930d37e0f93da5fe55da34d97856cec" kind="function"><name>setUp</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test_1ae9c6ab43364a62d1051c64593f6ab825" kind="function"><name>shouldAddandUpdate</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test_1acfb6b1da39ec91b56767be630a881fd5" kind="function"><name>shouldFindAll</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test_1a9676f43f60e9b0f7dffebe3fdc46b9af" kind="function"><name>delete</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test_1abc0b92aeedaee0f793af06beeae7b898" kind="function"><name>makeReservation</name></member>
+  </compound>
+  <compound refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository" kind="interface"><name>learn::reservation::data::ReservationRepository</name>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_1a8b44167ed08a27e4f0cc0ada668c4dc2" kind="function"><name>add</name></member>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_1ac93c226ce17b5a58adaa92f3b0dd35c1" kind="function"><name>findAll</name></member>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_1a1af716d4f5474cd7ea42557f26da35fd" kind="function"><name>update</name></member>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_1a4af60aa478a53705716ceea94555d87b" kind="function"><name>delete</name></member>
+    <member refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_1a0ba837b68cb9758222c64e990f30af47" kind="function"><name>findGuestReservations</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double" kind="class"><name>learn::reservation::data::ReservationRepositoryDouble</name>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_1a8508f75a9491f738ad34de2dfdafb726" kind="variable"><name>reservations</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_1a6a191273e865b0cb8f6f2191d8ef24fa" kind="function"><name>ReservationRepositoryDouble</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_1a94c503a104a368e3461fe22b4a64830d" kind="function"><name>add</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_1aacfea925e01183c5e7e19cd0592e08f0" kind="function"><name>findAll</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_1aed9f00155228d7cdc887c8655bc0ecd4" kind="function"><name>update</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_1a6d4aaf91cf04aecae0a0154039b18856" kind="function"><name>delete</name></member>
+    <member refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double_1a16d65510fea49531f05e812870a44f1c" kind="function"><name>findGuestReservations</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service" kind="class"><name>learn::reservation::domain::ReservationService</name>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1acac56756eecd9e610c277adbbed87adc" kind="variable"><name>hostRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1a1b8ae8df5698ca77b144d2c982588911" kind="variable"><name>guestRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1af1bb38a4a0e58c41d46073ad10554dc4" kind="variable"><name>reservationRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1ac661bdf02383aa5a687b31f1c82ddba8" kind="function"><name>ReservationService</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1a1246cb35fb66db866035e6e45fdedf8e" kind="function"><name>findByHostEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1ae729881fe4b2e679957982012ef52b5e" kind="function"><name>findByGuestEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1a8a0d551a7022fc364e1e153e45a58f02" kind="function"><name>findByState</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1aa96d832b0ebec610778e1777650e862f" kind="function"><name>add</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1a97e4277e9c57a6e470efe3ff4c7de07e" kind="function"><name>update</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1ada193af5452835a16d25a70ad245307b" kind="function"><name>remove</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1afc6303d76e6c94eb581139801b304bb5" kind="function"><name>validate</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1acc8fd2abdbdaac881bfcf9a26cf1ecd9" kind="function"><name>validateNulls</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_1aade844608588f97794bd2f5f8320a684" kind="function"><name>validateFields</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test" kind="class"><name>learn::reservation::domain::ReservationServiceTest</name>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a51ee4562cb5bedacf1f5b4d5d62814d1" kind="variable"><name>GUEST_SEED_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a4a3bcf6dc0d809771856d2071090a144" kind="variable"><name>GUEST_TEST_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1aacdac389ab1ef7d9cbd54265860b4aa4" kind="variable"><name>HOST_SEED_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1ae6e156f63308d8d2e57192bdb3f15e7b" kind="variable"><name>HOST_TEST_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a6679f51b39ef7bee3422f6526c6782e8" kind="variable"><name>RESERVATION_SEED_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a04ab0a27ec88b1ce330851642520ac94" kind="variable"><name>RESERVATION_TEST_PATH</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a5996e7f9cc915e418129f1a4677e75bf" kind="variable"><name>guestFileRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a506fb449e028400dde9a4f2e70b5272c" kind="variable"><name>hostFileRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a4d0f6f96148189eea780802900866199" kind="variable"><name>reservationFileRepository</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a7b2f61cf4fd74d6eb2a0ba145a3d6a58" kind="variable"><name>reservationService</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a5ed9f8b89a105d8e9f25a9ac5d6a9520" kind="function"><name>setup</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a2921f999de75a36f9e4beab3aee2cb8a" kind="function"><name>shouldFindByHostEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1aa59850abf6f9e4e2e1808c93f0231628" kind="function"><name>shouldNotFindByHostEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a2f3d981546386d71f52a4755490123e2" kind="function"><name>shouldAdd</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a681c4b3cb380bd5c64eb6283b280c517" kind="function"><name>shouldFailToValidateDate</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1aab27082bc74919e4768b2d687d041d1c" kind="function"><name>shouldFailToValidateDuplicate</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1ae0860b9bd439ffe25ba14ec1e95312d2" kind="function"><name>shouldFindByGuestEmail</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1domain_1_1_response" kind="class"><name>learn::reservation::domain::Response</name>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_response_1a68dabf7fb6394fabd8ca005a88ee40b8" kind="variable"><name>messages</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_response_1a63d3629f6a962a8171d4fcd8296beffd" kind="function"><name>isSuccess</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_response_1a9d5865a5584e734053d9de6fd4610583" kind="function"><name>getErrorMessages</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_response_1abb5e66175ef4d47565508c498d00f510" kind="function"><name>addErrorMessage</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1domain_1_1_result" kind="class"><name>learn::reservation::domain::Result</name>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_result_1a5421328dfc1d9409e2a79b1f35d7be8e" kind="variable"><name>payload</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_result_1aa76babc9750d167c1a35450f051d4ac2" kind="function"><name>getPayload</name></member>
+    <member refid="classlearn_1_1reservation_1_1domain_1_1_result_1a6f528df82b60b9b39d90265d236516da" kind="function"><name>setPayload</name></member>
+  </compound>
+  <compound refid="classlearn_1_1reservation_1_1ui_1_1_view" kind="class"><name>learn::reservation::ui::View</name>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1af9e90407dcb65f0a7bcecafb4fdf2cdc" kind="variable"><name>io</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1a87651d5c1bcb8c6f523d15d64620e0aa" kind="function"><name>View</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1a08505949ebcc7e545188a05e27bc1208" kind="function"><name>displayHeader</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1abbef07ef1e85f71a47795441bd3f348a" kind="function"><name>displayException</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1a5fff19d76785379afad046f943b0edfe" kind="function"><name>selectMainMenuOption</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1aca888362481c2773f70f6eab64c07f7b" kind="function"><name>displayStatus</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1a7bf8ad0207836ab8cc371975b88bd526" kind="function"><name>displayStatus</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1a5f5370f58f11b621ad2a37c22e6949f4" kind="function"><name>enterToContinue</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1af316dcf1c9d92c19a5d48e2067da362c" kind="function"><name>getHostEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1abf8c2a8507840298a51b4a927078f032" kind="function"><name>displayHostReservations</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1aae3592eb7957a3933f6026529a502dca" kind="function"><name>displayGuestReservations</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1ae51d18c61b2f2e291c7e51f2dc7fe87c" kind="function"><name>displayReservationsforGuest</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1a75ec6e8f3f3dce4361373f6f21e1c3f6" kind="function"><name>getReservationEmails</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1a7cd2d208098b53afa045f7feb178b1eb" kind="function"><name>getReservationDates</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1a913c0ed005fd0abb26ba6bd07f726738" kind="function"><name>displayReservationReport</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1a55daa2d217624e493a209c4c7ed08a9a" kind="function"><name>getGuestEmail</name></member>
+    <member refid="classlearn_1_1reservation_1_1ui_1_1_view_1ab059f60565dc90fa494e959ffec6e7cc" kind="function"><name>getState</name></member>
+  </compound>
+  <compound refid="namespacejava_1_1io" kind="namespace"><name>java::io</name>
+  </compound>
+  <compound refid="namespacelearn" kind="namespace"><name>learn</name>
+  </compound>
+  <compound refid="namespacelearn_1_1reservation" kind="namespace"><name>learn::reservation</name>
+  </compound>
+  <compound refid="namespacelearn_1_1reservation_1_1data" kind="namespace"><name>learn::reservation::data</name>
+  </compound>
+  <compound refid="namespacelearn_1_1reservation_1_1domain" kind="namespace"><name>learn::reservation::domain</name>
+  </compound>
+  <compound refid="namespacelearn_1_1reservation_1_1models" kind="namespace"><name>learn::reservation::models</name>
+  </compound>
+  <compound refid="namespacelearn_1_1reservation_1_1ui" kind="namespace"><name>learn::reservation::ui</name>
+  </compound>
+  <compound refid="namespaceorg_1_1junit_1_1jupiter_1_1api_1_1_assertions" kind="namespace"><name>org::junit::jupiter::api::Assertions</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_app_8java" kind="file"><name>App.java</name>
+  </compound>
+  <compound refid="_data_exception_8java" kind="file"><name>DataException.java</name>
+  </compound>
+  <compound refid="_guest_file_repository_8java" kind="file"><name>GuestFileRepository.java</name>
+  </compound>
+  <compound refid="_guest_repository_8java" kind="file"><name>GuestRepository.java</name>
+  </compound>
+  <compound refid="_host_file_repository_8java" kind="file"><name>HostFileRepository.java</name>
+  </compound>
+  <compound refid="_host_repository_8java" kind="file"><name>HostRepository.java</name>
+  </compound>
+  <compound refid="_reservation_file_repository_8java" kind="file"><name>ReservationFileRepository.java</name>
+  </compound>
+  <compound refid="_reservation_repository_8java" kind="file"><name>ReservationRepository.java</name>
+  </compound>
+  <compound refid="_guest_service_8java" kind="file"><name>GuestService.java</name>
+  </compound>
+  <compound refid="_host_service_8java" kind="file"><name>HostService.java</name>
+  </compound>
+  <compound refid="_reservation_service_8java" kind="file"><name>ReservationService.java</name>
+  </compound>
+  <compound refid="_response_8java" kind="file"><name>Response.java</name>
+  </compound>
+  <compound refid="_result_8java" kind="file"><name>Result.java</name>
+  </compound>
+  <compound refid="_guest_8java" kind="file"><name>Guest.java</name>
+  </compound>
+  <compound refid="_host_8java" kind="file"><name>Host.java</name>
+  </compound>
+  <compound refid="_reservation_8java" kind="file"><name>Reservation.java</name>
+  </compound>
+  <compound refid="_console_i_o_8java" kind="file"><name>ConsoleIO.java</name>
+  </compound>
+  <compound refid="_controller_8java" kind="file"><name>Controller.java</name>
+  </compound>
+  <compound refid="_main_menu_option_8java" kind="file"><name>MainMenuOption.java</name>
+  </compound>
+  <compound refid="_view_8java" kind="file"><name>View.java</name>
+  </compound>
+  <compound refid="_guest_file_repository_test_8java" kind="file"><name>GuestFileRepositoryTest.java</name>
+  </compound>
+  <compound refid="_host_file_repository_test_8java" kind="file"><name>HostFileRepositoryTest.java</name>
+  </compound>
+  <compound refid="_reservation_file_repository_test_8java" kind="file"><name>ReservationFileRepositoryTest.java</name>
+  </compound>
+  <compound refid="_reservation_repository_double_8java" kind="file"><name>ReservationRepositoryDouble.java</name>
+  </compound>
+  <compound refid="_reservation_service_test_8java" kind="file"><name>ReservationServiceTest.java</name>
+  </compound>
+  <compound refid="md_docs__r_e_a_d_m_e" kind="page"><name>md_docs_README</name>
+  </compound>
+  <compound refid="_mastery" kind="page"><name>Mastery</name>
+  </compound>
+  <compound refid="dir_12cab61d0f33549def55b7559dca72a2" kind="dir"><name>src/main/java/learn/reservation/data</name>
+  </compound>
+  <compound refid="dir_7c0472817e140889f3354e47751b788c" kind="dir"><name>src/test/java/learn/reservation/data</name>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_011e8e73aff44c61587c8586ef53260e" kind="dir"><name>src/main/java/learn/reservation/domain</name>
+  </compound>
+  <compound refid="dir_a69f9385ff23f1d4a77a0fe6b3f07f11" kind="dir"><name>src/test/java/learn/reservation/domain</name>
+  </compound>
+  <compound refid="dir_fd3f6763802dee1ad875f6c80eac0bda" kind="dir"><name>src/main/java</name>
+  </compound>
+  <compound refid="dir_97debbc39e3b917fca663601bb2b0709" kind="dir"><name>src/test/java</name>
+  </compound>
+  <compound refid="dir_f3d29f82071a65e2b44be6ce90a39ff7" kind="dir"><name>src/main/java/learn</name>
+  </compound>
+  <compound refid="dir_49c7a2b8a4612987c92f54fdba9322a6" kind="dir"><name>src/test/java/learn</name>
+  </compound>
+  <compound refid="dir_5eb159725f84c66aafd839904a4acdd0" kind="dir"><name>src/main</name>
+  </compound>
+  <compound refid="dir_9352a3b3ad9629a28ca107fdb3274eeb" kind="dir"><name>src/main/java/learn/reservation/models</name>
+  </compound>
+  <compound refid="dir_808e2f0fb0e46e0d070676a3620c8ee6" kind="dir"><name>src/test/java/learn/reservation</name>
+  </compound>
+  <compound refid="dir_c8ef76cbbe4e612006e561068ed1aa95" kind="dir"><name>src/main/java/learn/reservation</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_120ed4da3e3217b1e7fc0b4f48568e79" kind="dir"><name>src/test</name>
+  </compound>
+  <compound refid="dir_685a82a24d6a53ecef8e1f62acc85ad2" kind="dir"><name>src/main/java/learn/reservation/ui</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

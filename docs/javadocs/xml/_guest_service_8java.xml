@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_guest_service_8java" kind="file" language="Java">
+    <compoundname>GuestService.java</compoundname>
+    <innerclass refid="classlearn_1_1reservation_1_1domain_1_1_guest_service" prot="public">learn::reservation::domain::GuestService</innerclass>
+    <innernamespace refid="namespacelearn_1_1reservation_1_1domain">learn::reservation::domain</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacelearn_1_1reservation_1_1domain" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">learn.reservation.domain;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacelearn" kindref="compound">learn</ref>.<ref refid="namespacelearn_1_1reservation" kindref="compound">reservation</ref>.<ref refid="namespacelearn_1_1reservation_1_1data" kindref="compound">data</ref>.<ref refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository" kindref="compound">GuestRepository</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacelearn" kindref="compound">learn</ref>.<ref refid="namespacelearn_1_1reservation" kindref="compound">reservation</ref>.<ref refid="namespacelearn_1_1reservation_1_1models" kindref="compound">models</ref>.<ref refid="classlearn_1_1reservation_1_1models_1_1_guest" kindref="compound">Guest</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacelearn" kindref="compound">learn</ref>.<ref refid="namespacelearn_1_1reservation" kindref="compound">reservation</ref>.<ref refid="namespacelearn_1_1reservation_1_1models" kindref="compound">models</ref>.<ref refid="classlearn_1_1reservation_1_1models_1_1_host" kindref="compound">Host</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacelearn" kindref="compound">learn</ref>.<ref refid="namespacelearn_1_1reservation" kindref="compound">reservation</ref>.<ref refid="namespacelearn_1_1reservation_1_1models" kindref="compound">models</ref>.<ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.springframework.stereotype.Service;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">@Service</highlight></codeline>
+<codeline lineno="14" refid="classlearn_1_1reservation_1_1domain_1_1_guest_service" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classlearn_1_1reservation_1_1domain_1_1_guest_service" kindref="compound">GuestService</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/><ref refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository" kindref="compound">GuestRepository</ref><sp/>repository;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a4b51cf7941048914d6fa81e034ca9bad" kindref="member">GuestService</ref>(<ref refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository" kindref="compound">GuestRepository</ref><sp/>repository)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.repository<sp/>=<sp/>repository;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classlearn_1_1reservation_1_1models_1_1_guest" kindref="compound">Guest</ref><sp/><ref refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a191f244fc697b9b049f09d3503df30dc" kindref="member">findByGuestEmail</ref>(String<sp/>email)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>repository.<ref refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository_1a929aed484c7ae7a37ef9b8bd0c2fc6e8" kindref="member">findByEmail</ref>(email);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;Guest&gt;<sp/><ref refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a9b51dcfae5dd2e9ae19c4a8ee1709fc0" kindref="member">findAllGuests</ref>(){</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>repository.<ref refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository_1a95481c08f50bcc17798a9d76fd84ca2d" kindref="member">findAll</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main/java/learn/reservation/domain/GuestService.java"/>
+  </compounddef>
+</doxygen>

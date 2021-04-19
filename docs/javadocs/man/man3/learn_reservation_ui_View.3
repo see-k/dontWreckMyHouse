@@ -1,0 +1,100 @@
+.TH "learn.reservation.ui.View" 3 "Mon Apr 19 2021" "Version prj_v1_file" "Mastery Project for Dev10" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+learn.reservation.ui.View
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBView\fP (\fBConsoleIO\fP io)"
+.br
+.ti -1c
+.RI "void \fBdisplayHeader\fP (String message)"
+.br
+.ti -1c
+.RI "void \fBdisplayException\fP (Exception ex)"
+.br
+.ti -1c
+.RI "\fBMainMenuOption\fP \fBselectMainMenuOption\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisplayStatus\fP (boolean success, List< String > messages)"
+.br
+.ti -1c
+.RI "void \fBdisplayStatus\fP (boolean success, String message)"
+.br
+.ti -1c
+.RI "void \fBenterToContinue\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetHostEmail\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisplayHostReservations\fP (List< \fBReservation\fP > reservations, List< \fBGuest\fP > guests)"
+.br
+.ti -1c
+.RI "int \fBdisplayGuestReservations\fP (List< \fBReservation\fP > reservations, \fBGuest\fP guest)"
+.br
+.ti -1c
+.RI "void \fBdisplayReservationsforGuest\fP (List< \fBReservation\fP > reservations, \fBGuest\fP guest)"
+.br
+.ti -1c
+.RI "List< String > \fBgetReservationEmails\fP (String header)"
+.br
+.ti -1c
+.RI "List< LocalDate > \fBgetReservationDates\fP ()"
+.br
+.ti -1c
+.RI "char \fBdisplayReservationReport\fP (List< LocalDate > dates, BigDecimal total)"
+.br
+.ti -1c
+.RI "String \fBgetGuestEmail\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetState\fP ()"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "learn\&.reservation\&.ui\&.View\&.View (\fBConsoleIO\fP io)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void learn\&.reservation\&.ui\&.View\&.displayException (Exception ex)"
+
+.SS "int learn\&.reservation\&.ui\&.View\&.displayGuestReservations (List< \fBReservation\fP > reservations, \fBGuest\fP guest)"
+
+.SS "void learn\&.reservation\&.ui\&.View\&.displayHeader (String message)"
+
+.SS "void learn\&.reservation\&.ui\&.View\&.displayHostReservations (List< \fBReservation\fP > reservations, List< \fBGuest\fP > guests)"
+
+.SS "char learn\&.reservation\&.ui\&.View\&.displayReservationReport (List< LocalDate > dates, BigDecimal total)"
+
+.SS "void learn\&.reservation\&.ui\&.View\&.displayReservationsforGuest (List< \fBReservation\fP > reservations, \fBGuest\fP guest)"
+
+.SS "void learn\&.reservation\&.ui\&.View\&.displayStatus (boolean success, List< String > messages)"
+
+.SS "void learn\&.reservation\&.ui\&.View\&.displayStatus (boolean success, String message)"
+
+.SS "void learn\&.reservation\&.ui\&.View\&.enterToContinue ()"
+
+.SS "String learn\&.reservation\&.ui\&.View\&.getGuestEmail ()"
+
+.SS "String learn\&.reservation\&.ui\&.View\&.getHostEmail ()"
+
+.SS "List<LocalDate> learn\&.reservation\&.ui\&.View\&.getReservationDates ()"
+
+.SS "List<String> learn\&.reservation\&.ui\&.View\&.getReservationEmails (String header)"
+
+.SS "String learn\&.reservation\&.ui\&.View\&.getState ()"
+
+.SS "\fBMainMenuOption\fP learn\&.reservation\&.ui\&.View\&.selectMainMenuOption ()"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mastery Project for Dev10 from the source code\&.

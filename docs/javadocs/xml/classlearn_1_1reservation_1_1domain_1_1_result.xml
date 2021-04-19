@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1domain_1_1_result" kind="class" language="Java" prot="public">
+    <compoundname>learn::reservation::domain::Result</compoundname>
+    <basecompoundref refid="classlearn_1_1reservation_1_1domain_1_1_response" prot="public" virt="non-virtual">learn.reservation.domain.Response</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_result_1a5421328dfc1d9409e2a79b1f35d7be8e" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T learn.reservation.domain.Result&lt; T &gt;.payload</definition>
+        <argsstring></argsstring>
+        <name>payload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/Result.java" line="5" column="15" bodyfile="src/main/java/learn/reservation/domain/Result.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_result_1aa76babc9750d167c1a35450f051d4ac2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T learn.reservation.domain.Result&lt; T &gt;.getPayload</definition>
+        <argsstring>()</argsstring>
+        <name>getPayload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/Result.java" line="7" column="14" bodyfile="src/main/java/learn/reservation/domain/Result.java" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_result_1a6f528df82b60b9b39d90265d236516da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.domain.Result&lt; T &gt;.setPayload</definition>
+        <argsstring>(T payload)</argsstring>
+        <name>setPayload</name>
+        <param>
+          <type>T</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/Result.java" line="11" column="17" bodyfile="src/main/java/learn/reservation/domain/Result.java" bodystart="11" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>learn.reservation.domain.Response</label>
+        <link refid="classlearn_1_1reservation_1_1domain_1_1_response"/>
+      </node>
+      <node id="1">
+        <label>learn.reservation.domain.Result&lt; T &gt;</label>
+        <link refid="classlearn_1_1reservation_1_1domain_1_1_result"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>learn.reservation.domain.Response</label>
+        <link refid="classlearn_1_1reservation_1_1domain_1_1_response"/>
+      </node>
+      <node id="1">
+        <label>learn.reservation.domain.Result&lt; T &gt;</label>
+        <link refid="classlearn_1_1reservation_1_1domain_1_1_result"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/java/learn/reservation/domain/Result.java" line="3" column="30" bodyfile="src/main/java/learn/reservation/domain/Result.java" bodystart="3" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_response_1abb5e66175ef4d47565508c498d00f510" prot="public" virt="non-virtual"><scope>learn::reservation::domain::Result</scope><name>addErrorMessage</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_response_1a9d5865a5584e734053d9de6fd4610583" prot="public" virt="non-virtual"><scope>learn::reservation::domain::Result</scope><name>getErrorMessages</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_result_1aa76babc9750d167c1a35450f051d4ac2" prot="public" virt="non-virtual"><scope>learn::reservation::domain::Result</scope><name>getPayload</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_response_1a63d3629f6a962a8171d4fcd8296beffd" prot="public" virt="non-virtual"><scope>learn::reservation::domain::Result</scope><name>isSuccess</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_result_1a5421328dfc1d9409e2a79b1f35d7be8e" prot="private" virt="non-virtual"><scope>learn::reservation::domain::Result</scope><name>payload</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_result_1a6f528df82b60b9b39d90265d236516da" prot="public" virt="non-virtual"><scope>learn::reservation::domain::Result</scope><name>setPayload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

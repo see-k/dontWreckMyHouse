@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_app_8java" kind="file" language="Java">
+    <compoundname>App.java</compoundname>
+    <innerclass refid="classlearn_1_1reservation_1_1_app" prot="public">learn::reservation::App</innerclass>
+    <innernamespace refid="namespacelearn_1_1reservation">learn::reservation</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12" refid="namespacelearn_1_1reservation" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">learn.reservation;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacelearn" kindref="compound">learn</ref>.<ref refid="namespacelearn_1_1reservation" kindref="compound">reservation</ref>.<ref refid="namespacelearn_1_1reservation_1_1ui" kindref="compound">ui</ref>.<ref refid="classlearn_1_1reservation_1_1ui_1_1_controller" kindref="compound">Controller</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.springframework.context.ApplicationContext;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.springframework.context.annotation.AnnotationConfigApplicationContext;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.springframework.context.annotation.ComponentScan;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.springframework.context.annotation.PropertySource;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">@ComponentScan</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">@PropertySource(</highlight><highlight class="stringliteral">&quot;classpath:data.properties&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="21" refid="classlearn_1_1reservation_1_1_app" refkind="compound"><highlight class="normal">public<sp/>class<sp/><ref refid="classlearn_1_1reservation_1_1_app" kindref="compound">App</ref><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>main(String[]<sp/>args)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1.<sp/>We<sp/>pass<sp/>the<sp/>App.class,<sp/>this<sp/>class,<sp/>as<sp/>a<sp/>constructor<sp/>argument.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ApplicationContext<sp/>context<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>AnnotationConfigApplicationContext(<ref refid="classlearn_1_1reservation_1_1_app" kindref="compound">App</ref>.class);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3.<sp/>The<sp/>context<sp/>works<sp/>the<sp/>same<sp/>as<sp/>the<sp/>XML<sp/>context.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classlearn_1_1reservation_1_1ui_1_1_controller" kindref="compound">Controller</ref><sp/>controller<sp/>=<sp/>context.getBean(<ref refid="classlearn_1_1reservation_1_1ui_1_1_controller" kindref="compound">Controller</ref>.class);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Run<sp/>the<sp/>app!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>controller.<ref refid="classlearn_1_1reservation_1_1ui_1_1_controller_1abe461e4834ed7fbda1b1a91858b5c3af" kindref="member">run</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main/java/learn/reservation/App.java"/>
+  </compounddef>
+</doxygen>

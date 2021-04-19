@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_mastery" kind="page">
+    <compoundname>Mastery</compoundname>
+    <title>project Dev10</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>created as a Dev10 project. Assessment: Don&apos;t wreck my house</para>
+<para><simplesect kind="see"><para><ulink url="https://github.com/see-k/dontWreckMyHouse/blob/main/docs/README.md">https://github.com/see-k/dontWreckMyHouse/blob/main/docs/README.md</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1domain_1_1_guest_service" kind="class" language="Java" prot="public">
+    <compoundname>learn::reservation::domain::GuestService</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_guest_service_1af74f924ff86d0a107f1b8c37bed34a2c" prot="private" static="no" mutable="no">
+        <type>final <ref refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository" kindref="compound">GuestRepository</ref></type>
+        <definition>final GuestRepository learn.reservation.domain.GuestService.repository</definition>
+        <argsstring></argsstring>
+        <name>repository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/GuestService.java" line="15" column="35" bodyfile="src/main/java/learn/reservation/domain/GuestService.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a4b51cf7941048914d6fa81e034ca9bad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>learn.reservation.domain.GuestService.GuestService</definition>
+        <argsstring>(GuestRepository repository)</argsstring>
+        <name>GuestService</name>
+        <param>
+          <type><ref refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository" kindref="compound">GuestRepository</ref></type>
+          <declname>repository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/GuestService.java" line="17" column="12" bodyfile="src/main/java/learn/reservation/domain/GuestService.java" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a191f244fc697b9b049f09d3503df30dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classlearn_1_1reservation_1_1models_1_1_guest" kindref="compound">Guest</ref></type>
+        <definition>Guest learn.reservation.domain.GuestService.findByGuestEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>findByGuestEmail</name>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/GuestService.java" line="21" column="18" bodyfile="src/main/java/learn/reservation/domain/GuestService.java" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a9b51dcfae5dd2e9ae19c4a8ee1709fc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classlearn_1_1reservation_1_1models_1_1_guest" kindref="compound">Guest</ref> &gt;</type>
+        <definition>List&lt;Guest&gt; learn.reservation.domain.GuestService.findAllGuests</definition>
+        <argsstring>()</argsstring>
+        <name>findAllGuests</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/domain/GuestService.java" line="25" column="17" bodyfile="src/main/java/learn/reservation/domain/GuestService.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/domain/GuestService.java" line="14" column="26" bodyfile="src/main/java/learn/reservation/domain/GuestService.java" bodystart="14" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a9b51dcfae5dd2e9ae19c4a8ee1709fc0" prot="public" virt="non-virtual"><scope>learn::reservation::domain::GuestService</scope><name>findAllGuests</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a191f244fc697b9b049f09d3503df30dc" prot="public" virt="non-virtual"><scope>learn::reservation::domain::GuestService</scope><name>findByGuestEmail</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1a4b51cf7941048914d6fa81e034ca9bad" prot="public" virt="non-virtual"><scope>learn::reservation::domain::GuestService</scope><name>GuestService</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_guest_service_1af74f924ff86d0a107f1b8c37bed34a2c" prot="private" virt="non-virtual"><scope>learn::reservation::domain::GuestService</scope><name>repository</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

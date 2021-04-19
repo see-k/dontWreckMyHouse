@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1data_1_1_host_file_repository" kind="class" language="Java" prot="public">
+    <compoundname>learn::reservation::data::HostFileRepository</compoundname>
+    <basecompoundref refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository" prot="public" virt="non-virtual">learn.reservation.data.HostRepository</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a1b4b59e2d9ad0e59d9253b21cf89496f" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.data.HostFileRepository.HEADER</definition>
+        <argsstring></argsstring>
+        <name>HEADER</name>
+        <initializer>= &quot;id,last_name,email,phone,address,city,state,postal_code,standard_rate,weekend_rate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/HostFileRepository.java" line="16" column="33" bodyfile="src/main/java/learn/reservation/data/HostFileRepository.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a89d368e9e00b262a371b9239e7149feb" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.data.HostFileRepository.filePath</definition>
+        <argsstring></argsstring>
+        <name>filePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/HostFileRepository.java" line="18" column="26" bodyfile="src/main/java/learn/reservation/data/HostFileRepository.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a14df16dbe80429c381910b8c06ad8f8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>learn.reservation.data.HostFileRepository.HostFileRepository</definition>
+        <argsstring>(@Value(&quot;${dataFilePathHost}&quot;) String filePath)</argsstring>
+        <name>HostFileRepository</name>
+        <param>
+          <type>@Value(&quot;${dataFilePathHost}&quot;) String</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/HostFileRepository.java" line="20" column="12" bodyfile="src/main/java/learn/reservation/data/HostFileRepository.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a2f87dfd227db42a338a38a26e55870a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classlearn_1_1reservation_1_1models_1_1_host" kindref="compound">Host</ref> &gt;</type>
+        <definition>List&lt;Host&gt; learn.reservation.data.HostFileRepository.findAll</definition>
+        <argsstring>()</argsstring>
+        <name>findAll</name>
+        <reimplements refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository_1a14fcfca5948734cae188ecc065393a75">findAll</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/HostFileRepository.java" line="25" column="17" bodyfile="src/main/java/learn/reservation/data/HostFileRepository.java" bodystart="25" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a506f347eb5c78ffaed2be3eb925ff635" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classlearn_1_1reservation_1_1models_1_1_host" kindref="compound">Host</ref></type>
+        <definition>Host learn.reservation.data.HostFileRepository.findById</definition>
+        <argsstring>(String id)</argsstring>
+        <name>findById</name>
+        <reimplements refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository_1a6862d0596d56ddcc8685b186c1ebb4fd">findById</reimplements>
+        <param>
+          <type>String</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/HostFileRepository.java" line="45" column="17" bodyfile="src/main/java/learn/reservation/data/HostFileRepository.java" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a8c4821cc6d716144d110e669a5472f2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classlearn_1_1reservation_1_1models_1_1_host" kindref="compound">Host</ref></type>
+        <definition>Host learn.reservation.data.HostFileRepository.findByEmail</definition>
+        <argsstring>(String email)</argsstring>
+        <name>findByEmail</name>
+        <reimplements refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository_1a971267e8a896d932bd02dcda49edd408">findByEmail</reimplements>
+        <param>
+          <type>String</type>
+          <declname>email</declname>
+        </param>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/HostFileRepository.java" line="53" column="17" bodyfile="src/main/java/learn/reservation/data/HostFileRepository.java" bodystart="53" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1aa06c5bfc75dd1277d8b8d2d819812dea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classlearn_1_1reservation_1_1models_1_1_host" kindref="compound">Host</ref></type>
+        <definition>Host learn.reservation.data.HostFileRepository.deserialize</definition>
+        <argsstring>(String[] fields)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>String[]</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/data/HostFileRepository.java" line="60" column="18" bodyfile="src/main/java/learn/reservation/data/HostFileRepository.java" bodystart="60" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>learn.reservation.data.HostRepository</label>
+        <link refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository"/>
+      </node>
+      <node id="1">
+        <label>learn.reservation.data.HostFileRepository</label>
+        <link refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>learn.reservation.data.HostRepository</label>
+        <link refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository"/>
+      </node>
+      <node id="1">
+        <label>learn.reservation.data.HostFileRepository</label>
+        <link refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/java/learn/reservation/data/HostFileRepository.java" line="14" column="47" bodyfile="src/main/java/learn/reservation/data/HostFileRepository.java" bodystart="14" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1aa06c5bfc75dd1277d8b8d2d819812dea" prot="private" virt="non-virtual"><scope>learn::reservation::data::HostFileRepository</scope><name>deserialize</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a89d368e9e00b262a371b9239e7149feb" prot="private" virt="non-virtual"><scope>learn::reservation::data::HostFileRepository</scope><name>filePath</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a2f87dfd227db42a338a38a26e55870a9" prot="public" virt="non-virtual"><scope>learn::reservation::data::HostFileRepository</scope><name>findAll</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a8c4821cc6d716144d110e669a5472f2f" prot="public" virt="non-virtual"><scope>learn::reservation::data::HostFileRepository</scope><name>findByEmail</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a506f347eb5c78ffaed2be3eb925ff635" prot="public" virt="non-virtual"><scope>learn::reservation::data::HostFileRepository</scope><name>findById</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a1b4b59e2d9ad0e59d9253b21cf89496f" prot="private" virt="non-virtual"><scope>learn::reservation::data::HostFileRepository</scope><name>HEADER</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_1a14df16dbe80429c381910b8c06ad8f8d" prot="public" virt="non-virtual"><scope>learn::reservation::data::HostFileRepository</scope><name>HostFileRepository</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

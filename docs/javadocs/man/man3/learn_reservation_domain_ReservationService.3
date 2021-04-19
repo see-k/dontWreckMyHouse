@@ -1,0 +1,55 @@
+.TH "learn.reservation.domain.ReservationService" 3 "Mon Apr 19 2021" "Version prj_v1_file" "Mastery Project for Dev10" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+learn.reservation.domain.ReservationService
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBReservationService\fP (\fBHostRepository\fP hostRepository, \fBGuestRepository\fP guestRepository, \fBReservationRepository\fP reservationRepository)"
+.br
+.ti -1c
+.RI "List< \fBReservation\fP > \fBfindByHostEmail\fP (String email)  throws DataException     "
+.br
+.ti -1c
+.RI "List< \fBReservation\fP > \fBfindByGuestEmail\fP (String email)  throws DataException"
+.br
+.ti -1c
+.RI "List< \fBReservation\fP > \fBfindByState\fP (String state)  throws DataException     "
+.br
+.ti -1c
+.RI "\fBResult\fP< \fBReservation\fP > \fBadd\fP (List< String > emails, List< LocalDate > dates, BigDecimal total)  throws DataException "
+.br
+.ti -1c
+.RI "\fBResult\fP< \fBReservation\fP > \fBupdate\fP (\fBReservation\fP reservation, String hostId)  throws DataException "
+.br
+.ti -1c
+.RI "\fBResult\fP< \fBReservation\fP > \fBremove\fP (int id, String hostId)  throws DataException "
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "learn\&.reservation\&.domain\&.ReservationService\&.ReservationService (\fBHostRepository\fP hostRepository, \fBGuestRepository\fP guestRepository, \fBReservationRepository\fP reservationRepository)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBResult\fP<\fBReservation\fP> learn\&.reservation\&.domain\&.ReservationService\&.add (List< String > emails, List< LocalDate > dates, BigDecimal total) throws \fBDataException\fP"
+
+.SS "List<\fBReservation\fP> learn\&.reservation\&.domain\&.ReservationService\&.findByGuestEmail (String email) throws \fBDataException\fP"
+
+.SS "List<\fBReservation\fP> learn\&.reservation\&.domain\&.ReservationService\&.findByHostEmail (String email) throws \fBDataException\fP"
+
+.SS "List<\fBReservation\fP> learn\&.reservation\&.domain\&.ReservationService\&.findByState (String state) throws \fBDataException\fP"
+
+.SS "\fBResult\fP<\fBReservation\fP> learn\&.reservation\&.domain\&.ReservationService\&.remove (int id, String hostId) throws \fBDataException\fP"
+
+.SS "\fBResult\fP<\fBReservation\fP> learn\&.reservation\&.domain\&.ReservationService\&.update (\fBReservation\fP reservation, String hostId) throws \fBDataException\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mastery Project for Dev10 from the source code\&.

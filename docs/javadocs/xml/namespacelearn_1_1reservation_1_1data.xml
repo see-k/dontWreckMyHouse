@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacelearn_1_1reservation_1_1data" kind="namespace" language="Java">
+    <compoundname>learn::reservation::data</compoundname>
+    <innerclass refid="classlearn_1_1reservation_1_1data_1_1_data_exception" prot="public">learn::reservation::data::DataException</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository" prot="public">learn::reservation::data::GuestFileRepository</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository_test" prot="package">learn::reservation::data::GuestFileRepositoryTest</innerclass>
+    <innerclass refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository" prot="public">learn::reservation::data::GuestRepository</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository" prot="public">learn::reservation::data::HostFileRepository</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test" prot="package">learn::reservation::data::HostFileRepositoryTest</innerclass>
+    <innerclass refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository" prot="public">learn::reservation::data::HostRepository</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository" prot="public">learn::reservation::data::ReservationFileRepository</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1data_1_1_reservation_file_repository_test" prot="package">learn::reservation::data::ReservationFileRepositoryTest</innerclass>
+    <innerclass refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository" prot="public">learn::reservation::data::ReservationRepository</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double" prot="public">learn::reservation::data::ReservationRepositoryDouble</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/data/DataException.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

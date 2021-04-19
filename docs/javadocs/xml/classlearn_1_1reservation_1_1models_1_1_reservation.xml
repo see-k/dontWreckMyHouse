@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1models_1_1_reservation" kind="class" language="Java" prot="public">
+    <compoundname>learn::reservation::models::Reservation</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_reservation_1ad1d4dae59fe3c33ccb83afdbb55e40f4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int learn.reservation.models.Reservation.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="7" column="17" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a65815ef2a1568cfa1cf6c06f629f3ef4" prot="private" static="no" mutable="no">
+        <type>LocalDate</type>
+        <definition>LocalDate learn.reservation.models.Reservation.startDate</definition>
+        <argsstring></argsstring>
+        <name>startDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="8" column="23" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a1ed0a1c31ba55fbdf759013fce567a86" prot="private" static="no" mutable="no">
+        <type>LocalDate</type>
+        <definition>LocalDate learn.reservation.models.Reservation.endDate</definition>
+        <argsstring></argsstring>
+        <name>endDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="9" column="23" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_reservation_1af246766da01b448ad5f60e573bfef6ba" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int learn.reservation.models.Reservation.guestId</definition>
+        <argsstring></argsstring>
+        <name>guestId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="10" column="17" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a04ae6317f8d99bb49cd893cb4bd78f8d" prot="private" static="no" mutable="no">
+        <type>BigDecimal</type>
+        <definition>BigDecimal learn.reservation.models.Reservation.total</definition>
+        <argsstring></argsstring>
+        <name>total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="11" column="24" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a6f3230d0af97b46b2bc9f346424d6512" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int learn.reservation.models.Reservation.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="13" column="16" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a520b789ea9c08e3b217d665eb038b544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Reservation.setId</definition>
+        <argsstring>(int id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="17" column="17" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a6169bade29ed0bb80ec6ea0953cd8ce0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LocalDate</type>
+        <definition>LocalDate learn.reservation.models.Reservation.getStartDate</definition>
+        <argsstring>()</argsstring>
+        <name>getStartDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="21" column="22" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a4db1ae99cdb4eeeea26a879fdeb5206a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Reservation.setStartDate</definition>
+        <argsstring>(LocalDate startDate)</argsstring>
+        <name>setStartDate</name>
+        <param>
+          <type>LocalDate</type>
+          <declname>startDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="25" column="17" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1ab33950a9628f206baa1bbb4a4ae06400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LocalDate</type>
+        <definition>LocalDate learn.reservation.models.Reservation.getEndDate</definition>
+        <argsstring>()</argsstring>
+        <name>getEndDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="29" column="22" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a51855e1b17f9ecdde3e8c5942c529440" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Reservation.setEndDate</definition>
+        <argsstring>(LocalDate endDate)</argsstring>
+        <name>setEndDate</name>
+        <param>
+          <type>LocalDate</type>
+          <declname>endDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="33" column="17" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1ac8a6f84564f957d3688dbe7ba5d69807" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int learn.reservation.models.Reservation.getGuestId</definition>
+        <argsstring>()</argsstring>
+        <name>getGuestId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="37" column="16" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a74fc08d4aba88a0d499f6cd7164af83d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Reservation.setGuestId</definition>
+        <argsstring>(int guestId)</argsstring>
+        <name>setGuestId</name>
+        <param>
+          <type>int</type>
+          <declname>guestId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="41" column="17" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1accf317c2c67fa4991724dc290af82f4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BigDecimal</type>
+        <definition>BigDecimal learn.reservation.models.Reservation.getTotal</definition>
+        <argsstring>()</argsstring>
+        <name>getTotal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="45" column="23" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1models_1_1_reservation_1a0a637cc86bd74cccd9c750d1ceef3fac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.models.Reservation.setTotal</definition>
+        <argsstring>(BigDecimal total)</argsstring>
+        <name>setTotal</name>
+        <param>
+          <type>BigDecimal</type>
+          <declname>total</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/learn/reservation/models/Reservation.java" line="49" column="17" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/models/Reservation.java" line="6" column="25" bodyfile="src/main/java/learn/reservation/models/Reservation.java" bodystart="6" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a1ed0a1c31ba55fbdf759013fce567a86" prot="private" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>endDate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1ab33950a9628f206baa1bbb4a4ae06400" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>getEndDate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1ac8a6f84564f957d3688dbe7ba5d69807" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>getGuestId</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a6f3230d0af97b46b2bc9f346424d6512" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>getId</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a6169bade29ed0bb80ec6ea0953cd8ce0" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>getStartDate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1accf317c2c67fa4991724dc290af82f4b" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>getTotal</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1af246766da01b448ad5f60e573bfef6ba" prot="private" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>guestId</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1ad1d4dae59fe3c33ccb83afdbb55e40f4" prot="private" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>id</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a51855e1b17f9ecdde3e8c5942c529440" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>setEndDate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a74fc08d4aba88a0d499f6cd7164af83d" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>setGuestId</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a520b789ea9c08e3b217d665eb038b544" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>setId</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a4db1ae99cdb4eeeea26a879fdeb5206a" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>setStartDate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a0a637cc86bd74cccd9c750d1ceef3fac" prot="public" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>setTotal</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a65815ef2a1568cfa1cf6c06f629f3ef4" prot="private" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>startDate</name></member>
+      <member refid="classlearn_1_1reservation_1_1models_1_1_reservation_1a04ae6317f8d99bb49cd893cb4bd78f8d" prot="private" virt="non-virtual"><scope>learn::reservation::models::Reservation</scope><name>total</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

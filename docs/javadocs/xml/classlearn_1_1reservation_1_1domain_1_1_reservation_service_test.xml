@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test" kind="class" language="Java" prot="package">
+    <compoundname>learn::reservation::domain::ReservationServiceTest</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a51ee4562cb5bedacf1f5b4d5d62814d1" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.domain.ReservationServiceTest.GUEST_SEED_PATH</definition>
+        <argsstring></argsstring>
+        <name>GUEST_SEED_PATH</name>
+        <initializer>= &quot;./data/guests-seed.csv&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="21" column="25" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a4a3bcf6dc0d809771856d2071090a144" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.domain.ReservationServiceTest.GUEST_TEST_PATH</definition>
+        <argsstring></argsstring>
+        <name>GUEST_TEST_PATH</name>
+        <initializer>= &quot;./data/guests-test.csv&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="22" column="25" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1aacdac389ab1ef7d9cbd54265860b4aa4" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.domain.ReservationServiceTest.HOST_SEED_PATH</definition>
+        <argsstring></argsstring>
+        <name>HOST_SEED_PATH</name>
+        <initializer>= &quot;./data/hosts-seed.csv&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="24" column="25" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1ae6e156f63308d8d2e57192bdb3f15e7b" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.domain.ReservationServiceTest.HOST_TEST_PATH</definition>
+        <argsstring></argsstring>
+        <name>HOST_TEST_PATH</name>
+        <initializer>= &quot;./data/hosts-test.csv&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="25" column="25" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a6679f51b39ef7bee3422f6526c6782e8" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.domain.ReservationServiceTest.RESERVATION_SEED_PATH</definition>
+        <argsstring></argsstring>
+        <name>RESERVATION_SEED_PATH</name>
+        <initializer>= &quot;./data/guests-seed.csv&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="27" column="25" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a04ab0a27ec88b1ce330851642520ac94" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String learn.reservation.domain.ReservationServiceTest.RESERVATION_TEST_PATH</definition>
+        <argsstring></argsstring>
+        <name>RESERVATION_TEST_PATH</name>
+        <initializer>= &quot;./data/guests-test.csv&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="28" column="25" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a5996e7f9cc915e418129f1a4677e75bf" prot="package" static="no" mutable="no">
+        <type><ref refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository" kindref="compound">GuestRepository</ref></type>
+        <definition>GuestRepository learn.reservation.domain.ReservationServiceTest.guestFileRepository</definition>
+        <argsstring></argsstring>
+        <name>guestFileRepository</name>
+        <initializer>= new <ref refid="classlearn_1_1reservation_1_1data_1_1_guest_file_repository" kindref="compound">GuestFileRepository</ref>(GUEST_TEST_PATH)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="30" column="21" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a506fb449e028400dde9a4f2e70b5272c" prot="package" static="no" mutable="no">
+        <type><ref refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository" kindref="compound">HostRepository</ref></type>
+        <definition>HostRepository learn.reservation.domain.ReservationServiceTest.hostFileRepository</definition>
+        <argsstring></argsstring>
+        <name>hostFileRepository</name>
+        <initializer>= new <ref refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository" kindref="compound">HostFileRepository</ref>(HOST_TEST_PATH)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="31" column="20" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a4d0f6f96148189eea780802900866199" prot="package" static="no" mutable="no">
+        <type><ref refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository" kindref="compound">ReservationRepository</ref></type>
+        <definition>ReservationRepository learn.reservation.domain.ReservationServiceTest.reservationFileRepository</definition>
+        <argsstring></argsstring>
+        <name>reservationFileRepository</name>
+        <initializer>= new <ref refid="classlearn_1_1reservation_1_1data_1_1_reservation_repository_double" kindref="compound">ReservationRepositoryDouble</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="32" column="27" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a7b2f61cf4fd74d6eb2a0ba145a3d6a58" prot="package" static="no" mutable="no">
+        <type><ref refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service" kindref="compound">ReservationService</ref></type>
+        <definition>ReservationService learn.reservation.domain.ReservationServiceTest.reservationService</definition>
+        <argsstring></argsstring>
+        <name>reservationService</name>
+        <initializer>= new <ref refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service" kindref="compound">ReservationService</ref>(hostFileRepository, guestFileRepository, reservationFileRepository)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="33" column="24" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a5ed9f8b89a105d8e9f25a9ac5d6a9520" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.domain.ReservationServiceTest.setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="37" column="10" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="37" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a2921f999de75a36f9e4beab3aee2cb8a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.domain.ReservationServiceTest.shouldFindByHostEmail</definition>
+        <argsstring>()</argsstring>
+        <name>shouldFindByHostEmail</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="52" column="10" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1aa59850abf6f9e4e2e1808c93f0231628" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.domain.ReservationServiceTest.shouldNotFindByHostEmail</definition>
+        <argsstring>()</argsstring>
+        <name>shouldNotFindByHostEmail</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="58" column="10" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a2f3d981546386d71f52a4755490123e2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.domain.ReservationServiceTest.shouldAdd</definition>
+        <argsstring>()</argsstring>
+        <name>shouldAdd</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="64" column="10" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="64" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a681c4b3cb380bd5c64eb6283b280c517" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.domain.ReservationServiceTest.shouldFailToValidateDate</definition>
+        <argsstring>()</argsstring>
+        <name>shouldFailToValidateDate</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="77" column="10" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="77" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1aab27082bc74919e4768b2d687d041d1c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.domain.ReservationServiceTest.shouldFailToValidateDuplicate</definition>
+        <argsstring>()</argsstring>
+        <name>shouldFailToValidateDuplicate</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="93" column="10" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="93" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1ae0860b9bd439ffe25ba14ec1e95312d2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.domain.ReservationServiceTest.shouldFindByGuestEmail</definition>
+        <argsstring>()</argsstring>
+        <name>shouldFindByGuestEmail</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref></exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="106" column="10" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="106" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>learn.reservation.data.HostRepository</label>
+        <link refid="interfacelearn_1_1reservation_1_1data_1_1_host_repository"/>
+      </node>
+      <node id="3">
+        <label>learn.reservation.data.ReservationRepository</label>
+        <link refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository"/>
+      </node>
+      <node id="1">
+        <label>learn.reservation.domain.ReservationServiceTest</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>reservationService</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>reservationFileRepository</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>hostFileRepository</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>guestFileRepository</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>learn.reservation.domain.ReservationService</label>
+        <link refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service"/>
+      </node>
+      <node id="5">
+        <label>learn.reservation.data.GuestRepository</label>
+        <link refid="interfacelearn_1_1reservation_1_1data_1_1_guest_repository"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/test/java/learn/reservation/domain/ReservationServiceTest.java" line="20" column="29" bodyfile="src/test/java/learn/reservation/domain/ReservationServiceTest.java" bodystart="20" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a51ee4562cb5bedacf1f5b4d5d62814d1" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>GUEST_SEED_PATH</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a4a3bcf6dc0d809771856d2071090a144" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>GUEST_TEST_PATH</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a5996e7f9cc915e418129f1a4677e75bf" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>guestFileRepository</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1aacdac389ab1ef7d9cbd54265860b4aa4" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>HOST_SEED_PATH</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1ae6e156f63308d8d2e57192bdb3f15e7b" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>HOST_TEST_PATH</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a506fb449e028400dde9a4f2e70b5272c" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>hostFileRepository</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a6679f51b39ef7bee3422f6526c6782e8" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>RESERVATION_SEED_PATH</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a04ab0a27ec88b1ce330851642520ac94" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>RESERVATION_TEST_PATH</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a4d0f6f96148189eea780802900866199" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>reservationFileRepository</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a7b2f61cf4fd74d6eb2a0ba145a3d6a58" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>reservationService</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a5ed9f8b89a105d8e9f25a9ac5d6a9520" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>setup</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a2f3d981546386d71f52a4755490123e2" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>shouldAdd</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a681c4b3cb380bd5c64eb6283b280c517" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>shouldFailToValidateDate</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1aab27082bc74919e4768b2d687d041d1c" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>shouldFailToValidateDuplicate</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1ae0860b9bd439ffe25ba14ec1e95312d2" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>shouldFindByGuestEmail</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1a2921f999de75a36f9e4beab3aee2cb8a" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>shouldFindByHostEmail</name></member>
+      <member refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test_1aa59850abf6f9e4e2e1808c93f0231628" prot="package" virt="non-virtual"><scope>learn::reservation::domain::ReservationServiceTest</scope><name>shouldNotFindByHostEmail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

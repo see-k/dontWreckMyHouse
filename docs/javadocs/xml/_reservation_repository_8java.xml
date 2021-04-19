@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_reservation_repository_8java" kind="file" language="Java">
+    <compoundname>ReservationRepository.java</compoundname>
+    <innerclass refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository" prot="public">learn::reservation::data::ReservationRepository</innerclass>
+    <innernamespace refid="namespacelearn_1_1reservation_1_1data">learn::reservation::data</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">learn.reservation.data;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacelearn" kindref="compound">learn</ref>.<ref refid="namespacelearn_1_1reservation" kindref="compound">reservation</ref>.<ref refid="namespacelearn_1_1reservation_1_1models" kindref="compound">models</ref>.<ref refid="classlearn_1_1reservation_1_1models_1_1_host" kindref="compound">Host</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacelearn" kindref="compound">learn</ref>.<ref refid="namespacelearn_1_1reservation" kindref="compound">reservation</ref>.<ref refid="namespacelearn_1_1reservation_1_1models" kindref="compound">models</ref>.<ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.math.BigDecimal;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.time.LocalDate;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository" kindref="compound">ReservationRepository</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref><sp/><ref refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_1a8b44167ed08a27e4f0cc0ada668c4dc2" kindref="member">add</ref>(<ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref><sp/>reservation,<sp/>String<sp/>hostId)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/><ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>List&lt;Reservation&gt;<sp/><ref refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_1ac93c226ce17b5a58adaa92f3b0dd35c1" kindref="member">findAll</ref>(String<sp/>hostId);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref><sp/><ref refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_1a1af716d4f5474cd7ea42557f26da35fd" kindref="member">update</ref>(<ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref><sp/>reservation,<sp/>String<sp/>hostId)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/><ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classlearn_1_1reservation_1_1models_1_1_reservation" kindref="compound">Reservation</ref><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reservationId,<sp/>String<sp/>hostId)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/><ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>List&lt;Reservation&gt;<sp/><ref refid="interfacelearn_1_1reservation_1_1data_1_1_reservation_repository_1a0ba837b68cb9758222c64e990f30af47" kindref="member">findGuestReservations</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reservationId,<sp/>List&lt;Host&gt;<sp/>hosts);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main/java/learn/reservation/data/ReservationRepository.java"/>
+  </compounddef>
+</doxygen>

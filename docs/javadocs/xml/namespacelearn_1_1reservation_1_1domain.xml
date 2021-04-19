@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacelearn_1_1reservation_1_1domain" kind="namespace" language="Java">
+    <compoundname>learn::reservation::domain</compoundname>
+    <innerclass refid="classlearn_1_1reservation_1_1domain_1_1_guest_service" prot="public">learn::reservation::domain::GuestService</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1domain_1_1_host_service" prot="public">learn::reservation::domain::HostService</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service" prot="public">learn::reservation::domain::ReservationService</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1domain_1_1_reservation_service_test" prot="package">learn::reservation::domain::ReservationServiceTest</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1domain_1_1_response" prot="public">learn::reservation::domain::Response</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1domain_1_1_result" prot="public">learn::reservation::domain::Result</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/domain/GuestService.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

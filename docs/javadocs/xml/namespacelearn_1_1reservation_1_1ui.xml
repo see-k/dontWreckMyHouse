@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacelearn_1_1reservation_1_1ui" kind="namespace" language="Java">
+    <compoundname>learn::reservation::ui</compoundname>
+    <innerclass refid="classlearn_1_1reservation_1_1ui_1_1_console_i_o" prot="public">learn::reservation::ui::ConsoleIO</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1ui_1_1_controller" prot="public">learn::reservation::ui::Controller</innerclass>
+    <innerclass refid="enumlearn_1_1reservation_1_1ui_1_1_main_menu_option" prot="public">learn::reservation::ui::MainMenuOption</innerclass>
+    <innerclass refid="classlearn_1_1reservation_1_1ui_1_1_view" prot="public">learn::reservation::ui::View</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/learn/reservation/ui/ConsoleIO.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+\hypertarget{classlearn_1_1reservation_1_1domain_1_1_reservation_service}{}\doxysection{learn.\+reservation.\+domain.\+Reservation\+Service Class Reference}
+\label{classlearn_1_1reservation_1_1domain_1_1_reservation_service}\index{learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_reservation_service_ac661bdf02383aa5a687b31f1c82ddba8}{Reservation\+Service}} (\mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_host_repository}{Host\+Repository}} host\+Repository, \mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_guest_repository}{Guest\+Repository}} guest\+Repository, \mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository}{Reservation\+Repository}} reservation\+Repository)
+\item 
+List$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} $>$ \mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_reservation_service_a1246cb35fb66db866035e6e45fdedf8e}{find\+By\+Host\+Email}} (String email)  throws Data\+Exception     
+\item 
+List$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} $>$ \mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_reservation_service_ae729881fe4b2e679957982012ef52b5e}{find\+By\+Guest\+Email}} (String email)  throws Data\+Exception
+\item 
+List$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} $>$ \mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_reservation_service_a8a0d551a7022fc364e1e153e45a58f02}{find\+By\+State}} (String state)  throws Data\+Exception     
+\item 
+\mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_result}{Result}}$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} $>$ \mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_reservation_service_aa96d832b0ebec610778e1777650e862f}{add}} (List$<$ String $>$ emails, List$<$ Local\+Date $>$ dates, Big\+Decimal total)  throws Data\+Exception 
+\item 
+\mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_result}{Result}}$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} $>$ \mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_reservation_service_a97e4277e9c57a6e470efe3ff4c7de07e}{update}} (\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} reservation, String host\+Id)  throws Data\+Exception 
+\item 
+\mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_result}{Result}}$<$ \mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}} $>$ \mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_reservation_service_ada193af5452835a16d25a70ad245307b}{remove}} (int id, String host\+Id)  throws Data\+Exception 
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classlearn_1_1reservation_1_1domain_1_1_reservation_service_ac661bdf02383aa5a687b31f1c82ddba8}\label{classlearn_1_1reservation_1_1domain_1_1_reservation_service_ac661bdf02383aa5a687b31f1c82ddba8}} 
+\index{learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}!ReservationService@{ReservationService}}
+\index{ReservationService@{ReservationService}!learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}}
+\doxysubsubsection{\texorpdfstring{ReservationService()}{ReservationService()}}
+{\footnotesize\ttfamily learn.\+reservation.\+domain.\+Reservation\+Service.\+Reservation\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_host_repository}{Host\+Repository}}}]{host\+Repository,  }\item[{\mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_guest_repository}{Guest\+Repository}}}]{guest\+Repository,  }\item[{\mbox{\hyperlink{interfacelearn_1_1reservation_1_1data_1_1_reservation_repository}{Reservation\+Repository}}}]{reservation\+Repository }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classlearn_1_1reservation_1_1domain_1_1_reservation_service_aa96d832b0ebec610778e1777650e862f}\label{classlearn_1_1reservation_1_1domain_1_1_reservation_service_aa96d832b0ebec610778e1777650e862f}} 
+\index{learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}!add@{add}}
+\index{add@{add}!learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_result}{Result}}$<$\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}$>$ learn.\+reservation.\+domain.\+Reservation\+Service.\+add (\begin{DoxyParamCaption}\item[{List$<$ String $>$}]{emails,  }\item[{List$<$ Local\+Date $>$}]{dates,  }\item[{Big\+Decimal}]{total }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_data_exception}{Data\+Exception}}}
+
+\mbox{\Hypertarget{classlearn_1_1reservation_1_1domain_1_1_reservation_service_ae729881fe4b2e679957982012ef52b5e}\label{classlearn_1_1reservation_1_1domain_1_1_reservation_service_ae729881fe4b2e679957982012ef52b5e}} 
+\index{learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}!findByGuestEmail@{findByGuestEmail}}
+\index{findByGuestEmail@{findByGuestEmail}!learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}}
+\doxysubsubsection{\texorpdfstring{findByGuestEmail()}{findByGuestEmail()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}$>$ learn.\+reservation.\+domain.\+Reservation\+Service.\+find\+By\+Guest\+Email (\begin{DoxyParamCaption}\item[{String}]{email }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_data_exception}{Data\+Exception}}}
+
+\mbox{\Hypertarget{classlearn_1_1reservation_1_1domain_1_1_reservation_service_a1246cb35fb66db866035e6e45fdedf8e}\label{classlearn_1_1reservation_1_1domain_1_1_reservation_service_a1246cb35fb66db866035e6e45fdedf8e}} 
+\index{learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}!findByHostEmail@{findByHostEmail}}
+\index{findByHostEmail@{findByHostEmail}!learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}}
+\doxysubsubsection{\texorpdfstring{findByHostEmail()}{findByHostEmail()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}$>$ learn.\+reservation.\+domain.\+Reservation\+Service.\+find\+By\+Host\+Email (\begin{DoxyParamCaption}\item[{String}]{email }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_data_exception}{Data\+Exception}}}
+
+\mbox{\Hypertarget{classlearn_1_1reservation_1_1domain_1_1_reservation_service_a8a0d551a7022fc364e1e153e45a58f02}\label{classlearn_1_1reservation_1_1domain_1_1_reservation_service_a8a0d551a7022fc364e1e153e45a58f02}} 
+\index{learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}!findByState@{findByState}}
+\index{findByState@{findByState}!learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}}
+\doxysubsubsection{\texorpdfstring{findByState()}{findByState()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}$>$ learn.\+reservation.\+domain.\+Reservation\+Service.\+find\+By\+State (\begin{DoxyParamCaption}\item[{String}]{state }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_data_exception}{Data\+Exception}}}
+
+\mbox{\Hypertarget{classlearn_1_1reservation_1_1domain_1_1_reservation_service_ada193af5452835a16d25a70ad245307b}\label{classlearn_1_1reservation_1_1domain_1_1_reservation_service_ada193af5452835a16d25a70ad245307b}} 
+\index{learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}!remove@{remove}}
+\index{remove@{remove}!learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_result}{Result}}$<$\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}$>$ learn.\+reservation.\+domain.\+Reservation\+Service.\+remove (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{String}]{host\+Id }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_data_exception}{Data\+Exception}}}
+
+\mbox{\Hypertarget{classlearn_1_1reservation_1_1domain_1_1_reservation_service_a97e4277e9c57a6e470efe3ff4c7de07e}\label{classlearn_1_1reservation_1_1domain_1_1_reservation_service_a97e4277e9c57a6e470efe3ff4c7de07e}} 
+\index{learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}!update@{update}}
+\index{update@{update}!learn.reservation.domain.ReservationService@{learn.reservation.domain.ReservationService}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classlearn_1_1reservation_1_1domain_1_1_result}{Result}}$<$\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}$>$ learn.\+reservation.\+domain.\+Reservation\+Service.\+update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classlearn_1_1reservation_1_1models_1_1_reservation}{Reservation}}}]{reservation,  }\item[{String}]{host\+Id }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classlearn_1_1reservation_1_1data_1_1_data_exception}{Data\+Exception}}}
+

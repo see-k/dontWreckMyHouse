@@ -1,0 +1,71 @@
+.TH "learn.reservation.data.ReservationFileRepository" 3 "Mon Apr 19 2021" "Version prj_v1_file" "Mastery Project for Dev10" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+learn.reservation.data.ReservationFileRepository
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBlearn\&.reservation\&.data\&.ReservationRepository\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBReservationFileRepository\fP (@Value('${dataFilePathReservation}') String filePath)"
+.br
+.ti -1c
+.RI "\fBReservation\fP \fBadd\fP (\fBReservation\fP reservation, String hostId)  throws DataException "
+.br
+.ti -1c
+.RI "\fBReservation\fP \fBupdate\fP (\fBReservation\fP reservation, String hostId)  throws DataException "
+.br
+.ti -1c
+.RI "\fBReservation\fP \fBdelete\fP (int reservationId, String hostId)  throws DataException"
+.br
+.ti -1c
+.RI "List< \fBReservation\fP > \fBfindAll\fP (String hostId)"
+.br
+.ti -1c
+.RI "List< \fBReservation\fP > \fBfindGuestReservations\fP (int guestId, List< \fBHost\fP > hosts)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBwriteAll\fP (List< \fBReservation\fP > Reservations, String id)  throws DataException "
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "learn\&.reservation\&.data\&.ReservationFileRepository\&.ReservationFileRepository (@Value('${dataFilePathReservation}') String filePath)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBReservation\fP learn\&.reservation\&.data\&.ReservationFileRepository\&.add (\fBReservation\fP reservation, String hostId) throws \fBDataException\fP"
+
+.PP
+Implements \fBlearn\&.reservation\&.data\&.ReservationRepository\fP\&.
+.SS "\fBReservation\fP learn\&.reservation\&.data\&.ReservationFileRepository\&.delete (int reservationId, String hostId) throws \fBDataException\fP"
+
+.PP
+Implements \fBlearn\&.reservation\&.data\&.ReservationRepository\fP\&.
+.SS "List<\fBReservation\fP> learn\&.reservation\&.data\&.ReservationFileRepository\&.findAll (String hostId)"
+
+.PP
+Implements \fBlearn\&.reservation\&.data\&.ReservationRepository\fP\&.
+.SS "List<\fBReservation\fP> learn\&.reservation\&.data\&.ReservationFileRepository\&.findGuestReservations (int guestId, List< \fBHost\fP > hosts)"
+
+.PP
+Implements \fBlearn\&.reservation\&.data\&.ReservationRepository\fP\&.
+.SS "\fBReservation\fP learn\&.reservation\&.data\&.ReservationFileRepository\&.update (\fBReservation\fP reservation, String hostId) throws \fBDataException\fP"
+
+.PP
+Implements \fBlearn\&.reservation\&.data\&.ReservationRepository\fP\&.
+.SS "void learn\&.reservation\&.data\&.ReservationFileRepository\&.writeAll (List< \fBReservation\fP > Reservations, String id) throws \fBDataException\fP\fC [protected]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Mastery Project for Dev10 from the source code\&.

@@ -1,0 +1,196 @@
+.TH "md_docs__r_e_a_d_m_e" 3 "Mon Apr 19 2021" "Version prj_v1_file" "Mastery Project for Dev10" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md_docs__r_e_a_d_m_e \- README 
+
+.PP
+ 
+.SH "Don't Wreck My House"
+.PP
+.SS "Dev10 Assessment: M05"
+.SS "by Chike Okonta"
+.SS "04/19/2021"
+💻 Designed using Intelij
+.PP
+.PP
+ 
+.SS "Introduction"
+\fCDon't wreck my house\fP 
+.br
+ 
+.PP
+.nf
++ This is an application that allows a user to reserve accommodations for a guest with a host\&.
++ A guest chooses a place to stay for a specific date range\&. 
++ If the host location is available, it may be reserved by the guest\&. 
++ Reserved locations are not available to other guests during reserved dates\&.
+
+.fi
+.PP
+.PP
+.PP
+ 
+.SS "High Level Requirements"
+The application user is an accommodation administrator\&. They pair guests to hosts to make reservations\&.
+.PP
+.IP "\(bu" 2
+The administrator may view existing reservations for a host\&.
+.IP "\(bu" 2
+The administrator may create a reservation for a guest with a host\&.
+.IP "\(bu" 2
+The administrator may edit existing reservations\&.
+.IP "\(bu" 2
+The administrator may cancel a future reservation\&.
+.PP
+.PP
+.PP
+ 
+.SS "Instructions"
+To launch the application
+.IP "\(bu" 2
+open terminal and navigate to the \fBApp\&.java\fP file in the src folder
+.IP "\(bu" 2
+compile the program -->javac \fBApp\&.java\fP
+.IP "\(bu" 2
+launch the program --> java App
+.PP
+.SS "Code Step Sequence"
+.IP "\(bu" 2
+[ ] Step 1 (Set Up)
+.IP "  \(bu" 4
+[ ] Print header for introduction
+.IP "  \(bu" 4
+[ ] Show \fCmenu\fP [0-4]
+.PP
+
+.IP "\(bu" 2
+[ ] Step 2 (Perform event)
+.IP "  \(bu" 4
+[ ] Get user's \fCresponse\fP to menu
+.IP "  \(bu" 4
+[ ] Execute \fCevent\fP based on user's response
+.IP "    \(bu" 6
+[ ] 0: Exit
+.IP "    \(bu" 6
+[ ] 1: View Reservations for host
+.IP "    \(bu" 6
+[ ] 2: Make a reservation
+.IP "    \(bu" 6
+[ ] 3: Edit a reservation
+.IP "    \(bu" 6
+[ ] 4: Cancel a reservation
+.PP
+
+.IP "  \(bu" 4
+[ ] Call corresponding layer based on requested event
+.IP "    \(bu" 6
+[ ] User Interface
+.IP "    \(bu" 6
+[ ] Domain
+.IP "    \(bu" 6
+[ ] Data Access
+.IP "    \(bu" 6
+[ ] Model
+.PP
+
+.IP "  \(bu" 4
+[ ] Data in repository / file MUST be consistent with all \fCCRUD\fP events executed
+.PP
+
+.IP "\(bu" 2
+[ ] Step 3 (exit)
+.IP "  \(bu" 4
+[ ] Exit App if \fCevent\fP request is 0
+.PP
+
+.PP
+.PP
+.PP
+ 
+.SS "Example of Console Execution"
+.SS "Making Reservations"
+ 
+.SS "Changing Reservations"
+.PP
+Figure 3
+.PP
+.PP
+.SS "Project Management"
+.PP
+.nf
++ Use link below to go to project board
+.fi
+.PP
+ \fCLink to Public Trello Board: MO5 Mastery Project\fP
+.SS "Time Tracker"
+DATE  TASK ID  ESTIMATED TIME (HRS)  START TIME (HRS:MINS)  END TIME (HRS:MINS)  STATUS   4\&.12\&.2021  Research  4  2:00 PM  4:00 PM  Completed   4\&.13\&.2021  Planning  4  12:00 PM  4:00 PM  Completed   4\&.13\&.2021  Setup Packages and models  1  10:00 AM  11:00 AM  Completed   4\&.14\&.2021  Implement Guest Repository  2  3:00 PM  3:48 PM  Completed   4\&.14\&.2021  Implement Host Repository  2  9:00 AM  9:43 AM  Completed   4\&.14\&.2021  Implement Reservation Repository  2  4:00 PM  4:40PM  Completed   4\&.14\&.2021  Test Host Repository  2  9:00 AM  9:30 PM  Completed   4\&.14\&.2021  Test Guest Repository  2  3:00 PM  3:48 PM  Completed   4\&.14\&.2021  Test Reservation Repository  2  4:00 PM  4:40 PM  Completed   4\&.14\&.2021  First Progress presentation  0\&.25  10:00 AM  10:15 AM  Completed   4\&.15\&.2021  Implement Host Services  2  10:30 PM  11:00 PM  Completed   4\&.15\&.2021  Implement Guest Services  2  1:30 PM  2:45 PM  Completed   4\&.15\&.2021  Implement Reservation Services  2  10:30 PM  11:00 PM  Completed   4\&.17\&.2021  Test Host Services  2  10:00 AM  2:00 PM  Completed   4\&.17\&.2021  Test Guest Services  2  10:00 AM  2:00 PM  Completed   4\&.17\&.2021  Test Reservation Services  2  10:00 AM  2:00 PM  Completed   4\&.16\&.2021  Implement View class  1  9:00 AM  10:00 AM  Completed   4\&.16\&.2021  Implement Controller class  1  10:00 AM  10:00 AM  Completed   4\&.16\&.2021  Implement App class  0\&.5  9:00 PM  9:15 PM  Completed   4\&.16\&.2021  Spring Annotations  0\&.5  9:00 PM  9:05 PM  Completed   4\&.16\&.2021  Second Progress presentation  0\&.25  10:15 AM  10:30 AM  Completed   4\&.16\&.2021  Update Tests for 100% coverage  0\&.5  10:00 AM  2:00 PM  Completed   4\&.16\&.2021  Stretch Goal #1  4  6:00 PM  10:00 PM  Completed   4\&.17\&.2021  Stretch Goal #2  4  6:00 PM  10:00 PM  Completed   4\&.17\&.2021  Bugs: find and fix #1  1  6:00 PM  10:00 PM  Completed   4\&.17\&.2021  Update Documentation, Javadoc, HTML page  0\&.5  10:00 AM  2:00 PM  Completed   4\&.17\&.2021  Final Test: attempt to break code  0\&.5  10:00 AM  2:00 PM  Completed   
+.PP
+Table 1
+.PP
+.PP
+ 
+.SS "UML Chart"
+.PP
+.nf
++ Click the link below to view UML chart in full page
+.fi
+.PP
+ \fCLink to full diagram\fP
+.PP
+.PP
+Figure 1
+.PP
+.PP
+ 
+.SS "Sequence Chart"
+.PP
+.nf
+- Not yet Available
+.fi
+.PP
+ Figure 2
+.PP
+.PP
+ 
+.SS "Flow Chart"
+.PP
+.nf
++ Click the link below to view flow chart in full page
+.fi
+.PP
+ \fCLink to full diagram\fP
+.PP
+.PP
+Figure 3
+.PP
+.PP
+ 
+.SS "Sequence Diagram"
+.PP
+.nf
++ Click  to view in full page
+.fi
+.PP
+ 
+.PP
+.PP
+ 
+.SS "Notes"
+Project will have an additional HTML page with additional explanation on methods and classes \fClink\fP
+.SS "Glossary"
+.IP "\(bu" 2
+Guest: A customer\&. Someone who wants to book a place to stay\&. Guest data is provided via a zip download\&.
+.IP "\(bu" 2
+Host: The accommodation provider\&. Someone who has a property to rent per night\&. Host data is provided\&.
+.IP "\(bu" 2
+Location: A rental property\&. In Don't Wreck My House, Location and Host are combined\&. The application enforces a limit on one Location per Host, so we can think of a Host and Location as a single thing\&.
+.IP "\(bu" 2
+Reservation: One or more days where a Guest has exclusive access to a Location (or Host)\&. Reservation data is provided\&.
+.IP "\(bu" 2
+Adminstrator: The application user\&. Guests and Hosts don't book their own Reservations\&. The Administrator does it for them\&.
+.PP
+.SS "Data Information"
+DATA  TYPE   \fCLast Name\fP  \fCString\fP   \fCFirst Name\fP  \fCInteger\fP   \fCState\fP  \fCString\fP   \fCFile/Path\fP  \fCString\fP   \fCDate\fP  \fCLocalDate\fP   \fCCategory\fP  \fCENUM\fP   
+.PP
+Table 2 

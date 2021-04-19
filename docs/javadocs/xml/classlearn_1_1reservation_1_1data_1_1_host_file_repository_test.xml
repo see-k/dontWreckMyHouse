@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test" kind="class" language="Java" prot="package">
+    <compoundname>learn::reservation::data::HostFileRepositoryTest</compoundname>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1ae74e051eb68e3a7262a30191989e95d6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.data.HostFileRepositoryTest.setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" line="14" column="10" bodyfile="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a8bce87a069c9565842b97e9c5c4188ac" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.data.HostFileRepositoryTest.add</definition>
+        <argsstring>()</argsstring>
+        <name>add</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" line="19" column="10" bodyfile="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" bodystart="19" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a4751082ac338193706367d8bd70cc07c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.data.HostFileRepositoryTest.ShouldFindAll</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldFindAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" line="23" column="10" bodyfile="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a528cb9fbd5b048c4383bea2859a30e30" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.data.HostFileRepositoryTest.ShouldFindById</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldFindById</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" line="30" column="10" bodyfile="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a68b4db6e7760a20073e22cfdde5e3f3b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void learn.reservation.data.HostFileRepositoryTest.findByEmail</definition>
+        <argsstring>()</argsstring>
+        <name>findByEmail</name>
+        <exceptions> throws <ref refid="classlearn_1_1reservation_1_1data_1_1_data_exception" kindref="compound">DataException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" line="37" column="10" bodyfile="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" bodystart="37" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" line="11" column="29" bodyfile="src/test/java/learn/reservation/data/HostFileRepositoryTest.java" bodystart="11" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a8bce87a069c9565842b97e9c5c4188ac" prot="package" virt="non-virtual"><scope>learn::reservation::data::HostFileRepositoryTest</scope><name>add</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a68b4db6e7760a20073e22cfdde5e3f3b" prot="package" virt="non-virtual"><scope>learn::reservation::data::HostFileRepositoryTest</scope><name>findByEmail</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1ae74e051eb68e3a7262a30191989e95d6" prot="package" virt="non-virtual"><scope>learn::reservation::data::HostFileRepositoryTest</scope><name>setUp</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a4751082ac338193706367d8bd70cc07c" prot="package" virt="non-virtual"><scope>learn::reservation::data::HostFileRepositoryTest</scope><name>ShouldFindAll</name></member>
+      <member refid="classlearn_1_1reservation_1_1data_1_1_host_file_repository_test_1a528cb9fbd5b048c4383bea2859a30e30" prot="package" virt="non-virtual"><scope>learn::reservation::data::HostFileRepositoryTest</scope><name>ShouldFindById</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
