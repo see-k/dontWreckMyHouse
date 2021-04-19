@@ -5,13 +5,11 @@ import learn.reservation.models.Host;
 import java.util.List;
 
 public interface HostRepository {
-    Host add(Host host) throws DataException;
-
     List<Host> findAll();
 
     Host findById(String id);
 
-    Host findByEmail(String email);
+    Host findByEmail(String email) throws DataException;
 
     //TODO include update
     //TODO include remove

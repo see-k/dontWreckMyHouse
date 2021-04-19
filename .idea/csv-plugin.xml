@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\data\2e72f86c-b8fe-4265-b4f1-304dea8762db.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\guests-test.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\guests.csv">
           <value>
             <Attribute>
@@ -11,6 +25,13 @@
           </value>
         </entry>
         <entry key="\data\hosts.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\reservations\2e72f86c-b8fe-4265-b4f1-304dea8762db.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -95,6 +116,20 @@
           </value>
         </entry>
         <entry key="\src\test\java\learn\reservation\data\HostFileRepositoryTest.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\test\java\learn\reservation\data\ReservationRepositoryDouble.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\test\java\learn\reservation\domain\ReservationServiceTest.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />

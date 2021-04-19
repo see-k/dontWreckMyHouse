@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 @Component
 public class View {
@@ -59,7 +60,6 @@ public class View {
         io.readString("Press [Enter] to continue.");
     }
 
-
     public String getHostEmail() {
         displayHeader(MainMenuOption.VIEW_RESERVATIONS_FOR_HOST.getMessage());
         return io.readRequiredString("Host Email: ");
@@ -91,33 +91,68 @@ public class View {
 
     }
 
-    public void displayGuestReservations(List<Reservation> reservations, Guest guest) {
+    public int displayGuestReservations(List<Reservation> reservations, Guest guest) {
         if(reservations == null || reservations.isEmpty()){
             io.println("No reservations found. Please book one with us!");
-            return;
+            return 0;
         }
+        io.printf("Reservations for %s, %s: %n",guest.getLastName(),
+                guest.getFirstName());
+
         for(Reservation reservation: reservations){
-                if(reservation.getGuestId() == guest.getId()){
-                    io.printf("ID: %s, %s - %s ",
+            if(reservation.getGuestId() == guest.getId()){
+            io.printf("ID: %s, %s - %s, total: %s %n",
+                    reservation.getId(),
+                    reservation.getStartDate(),
+                    reservation.getEndDate(),
+                    reservation.getTotal()
+            );
+            }
+        }
+
+        if(reservations.size() > 1)
+            return Integer.parseInt(io.readRequiredString("Index to edit: "));
+        else
+            return reservations.get(0).getId();
+    }
+
+    public void displayReservationsforGuest(List<Reservation> reservations, Guest guest){
+
+        if(reservations.size() == 0)
+            io.printf("No reservations found!%n");
+        else {
+            io.printf("Reservations for %s, %s: %n", guest.getLastName(),
+                    guest.getFirstName());
+
+            for (Reservation reservation : reservations) {
+                if (reservation.getGuestId() == guest.getId()) {
+                    io.printf("ID: %s, %s - %s, total: %s %n",
                             reservation.getId(),
                             reservation.getStartDate(),
-                            reservation.getEndDate()
-                    );
-                    io.printf("Guest: %s, %s, Email: %s%n",
-                            guest.getLastName(),
-                            guest.getFirstName(),
-                            guest.getEmail()
+                            reservation.getEndDate(),
+                            reservation.getTotal()
                     );
                 }
-
+            }
         }
 
     }
 
+    public List<String> getReservationEmails(String header) {
+        switch (header.toLowerCase(Locale.ROOT)){
+            case "make":
+                displayHeader(MainMenuOption.MAKE_RESERVATION.getMessage());
+                break;
+            case "cancel":
+                displayHeader(MainMenuOption.CANCEL_RESERVATION.getMessage());
+                break;
+            case "edit":
+                displayHeader(MainMenuOption.EDIT_RESERVATION.getMessage());
+                break;
+            default:
+                break;
+        }
 
-
-    public List<String> getReservationEmails() {
-        displayHeader(MainMenuOption.MAKE_RESERVATION.getMessage());
         List<String> emails = new ArrayList<>();
         emails.add(io.readRequiredString("Guest Email: "));
         emails.add(io.readRequiredString("Host Email: "));
@@ -142,5 +177,19 @@ public class View {
             response = io.readRequiredString("Is this Okay? [y/n]: ");
         }while (Character.toLowerCase(response.charAt(0)) != 'y' && Character.toLowerCase(response.charAt(0)) != 'n');
             return Character.toLowerCase(response.charAt(0));
+    }
+
+    public String getGuestEmail() {
+        displayHeader(MainMenuOption.VIEW_RESERVATIONS_FOR_GUEST.getMessage());
+        return io.readRequiredString("Guest Email: ");
+    }
+
+    public String getState() {
+        displayHeader(MainMenuOption.VIEW_RESERVATIONS_BY_STATE.getMessage());
+        String state = "";
+        do{
+            state = io.readRequiredString("State Abbreviation: ");
+        }while(state.length() != 2);
+        return state;
     }
 }

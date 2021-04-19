@@ -2,7 +2,6 @@ package learn.reservation.data;
 
 import learn.reservation.models.Host;
 import learn.reservation.models.Reservation;
-import learn.reservation.models.Reservation;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
@@ -12,6 +11,9 @@ import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
 @Repository
 public class ReservationFileRepository implements ReservationRepository {
     private static final String HEADER = "id,start_date,end_date,guest_id,total";
@@ -38,28 +40,27 @@ public class ReservationFileRepository implements ReservationRepository {
         return reservation;
     }
 
-    @Override
-    public Reservation update(int guestId, String hostId, List<LocalDate> dates, BigDecimal total) throws DataException{
+    public Reservation update(Reservation reservation, String hostId) throws DataException {
         List<Reservation> all = findAll(hostId);
 
         Reservation toUpdate = all.stream()
-                .filter(i->i.getGuestId() == guestId)
+                .filter(i -> i.getId() == reservation.getId())
                 .findFirst()
                 .orElse(null);
         all.remove(toUpdate);
-        toUpdate.setStartDate(dates.get(0));
-        toUpdate.setEndDate(dates.get(1));
-        toUpdate.setTotal(total);
+        toUpdate.setStartDate(reservation.getStartDate());
+        toUpdate.setEndDate(reservation.getEndDate());
+        toUpdate.setTotal(reservation.getTotal());
         all.add(toUpdate);
         writeAll(all, hostId);
         return toUpdate;
     }
     @Override
-    public Reservation delete(int guestId, String hostId) throws DataException{
+    public Reservation delete(int reservationId, String hostId) throws DataException{
         List<Reservation> all = findAll(hostId);
 
         Reservation toRemove = all.stream()
-                .filter(i->i.getGuestId() == guestId)
+                .filter(i->i.getId() == reservationId)
                 .findFirst()
                 .orElse(null);
         all.remove(toRemove);
@@ -108,8 +109,6 @@ public class ReservationFileRepository implements ReservationRepository {
         return  reservation;
     }
 
-
-
     protected void writeAll(List<Reservation> Reservations, String id ) throws DataException {
         try (PrintWriter writer = new PrintWriter(getFilePath(id))) {
 
@@ -135,5 +134,20 @@ public class ReservationFileRepository implements ReservationRepository {
                 reservation.getEndDate(),
                 reservation.getGuestId(),
                 reservation.getTotal());
+    }
+
+    @Override
+    public List<Reservation> findGuestReservations(int guestId, List<Host> hosts)
+    {
+        List<Reservation> guestReservation = new ArrayList<>();
+        for(Host host: hosts)
+        {
+            List<Reservation> thisReservation = findAll(host.getId()).stream()
+                    .filter(i->i.getGuestId() == guestId)
+                    .collect(Collectors.toList());
+            if(thisReservation.size() > 0)
+                guestReservation.addAll(thisReservation);
+        }
+        return guestReservation;
     }
 }

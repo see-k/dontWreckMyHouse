@@ -26,8 +26,5 @@ public class GuestService {
         return repository.findAll();
     }
 
-    public Guest findById(int id){
-        return repository.findById(id);
-    }
 
 }

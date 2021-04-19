@@ -1,5 +1,6 @@
 package learn.reservation.domain;
 
+import learn.reservation.data.DataException;
 import learn.reservation.data.HostRepository;
 import learn.reservation.models.Host;
 import org.springframework.stereotype.Service;
@@ -17,11 +18,11 @@ public class HostService {
         this.hostRepository = hostRepository;
     }
 
-    public Host findByEmail(String email){
+    public Host findByEmail(String email) throws DataException {
         return hostRepository.findByEmail(email);
     }
 
-    public BigDecimal getTotal(String hostEmail, List<LocalDate> dates) {
+    public BigDecimal getTotal(String hostEmail, List<LocalDate> dates) throws DataException  {
         //TODO validate emails
         Host host = hostRepository.findByEmail(hostEmail);
         BigDecimal total = new BigDecimal("0");

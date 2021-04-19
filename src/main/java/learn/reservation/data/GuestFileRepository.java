@@ -18,48 +18,6 @@ public class GuestFileRepository implements GuestRepository{
         this.filePath = filePath;
     }
 
-    @Override
-    public Guest add(Guest guest) throws DataException {
-        if(guest == null)
-            return null;
-        List<Guest> all = findAll();
-        int nextId = all.stream()
-                .mapToInt(Guest::getId)
-                .max()
-                .orElse(0) + 1;
-        guest.setId(nextId);
-        all.add(guest);
-        writeAll(all);
-        return guest;
-    }
-
-    private void writeAll(List<Guest> items) throws DataException {
-        try (PrintWriter writer = new PrintWriter(filePath)) {
-
-            writer.println(HEADER);
-
-            if (items == null) {
-                return;
-            }
-
-            for (Guest item : items) {
-                writer.println(serialize(item));
-            }
-
-        } catch (FileNotFoundException ex) {
-            throw new DataException(ex);
-        }
-    }
-
-    private String serialize(Guest guest) {
-        return String.format("%s%s%s%s%s%s",
-                guest.getId(),
-                guest.getFirstName(),
-                guest.getLastName(),
-                guest.getEmail(),
-                guest.getPhone(),
-                guest.getState());
-    }
 
     @Override
     public List<Guest> findAll() {
@@ -96,13 +54,6 @@ public class GuestFileRepository implements GuestRepository{
     public Guest findByEmail(String email) {
         return findAll().stream()
                 .filter(i -> i.getEmail().equalsIgnoreCase(email))
-                .findFirst()
-                .orElse(null);
-    }
-    @Override
-    public Guest findById(int id) {
-        return findAll().stream()
-                .filter(i -> i.getId() == id)
                 .findFirst()
                 .orElse(null);
     }

@@ -22,15 +22,6 @@ public class HostFileRepository implements HostRepository {
     }
 
     @Override
-    public Host add(Host host) throws DataException {
-        List<Host> all = findAll();
-        host.setId(UUID.randomUUID().toString());
-        all.add(host);
-        writeAll(all);
-        return host;
-    }
-
-    @Override
     public List<Host> findAll() {
         ArrayList<Host> result = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
@@ -59,38 +50,11 @@ public class HostFileRepository implements HostRepository {
     }
 
     @Override
-    public Host findByEmail(String email) {
+    public Host findByEmail(String email) throws DataException {
         return findAll().stream()
                 .filter(i -> i.getEmail().equalsIgnoreCase(email))
                 .findFirst()
                 .orElse(null);
-    }
-
-    private void writeAll (List<Host> host) throws DataException{
-        try (PrintWriter writer = new PrintWriter(filePath)) {
-
-            writer.println(HEADER);
-
-            for (Host item : host) {
-                writer.println(serialize(item));
-            }
-        } catch (FileNotFoundException ex) {
-            throw new DataException(ex);
-        }
-    }
-
-    private String serialize (Host host){
-        return String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s", 
-                host.getId(), 
-                host.getLastName(),
-                host.getEmail(),
-                host.getPhone(),
-                host.getAddress(),
-                host.getCity(),
-                host.getState(),
-                host.getPostalCode(),
-                host.getStandardRate(),
-                host.getWeekendRate());
     }
 
     private Host deserialize (String[] fields) {

@@ -91,20 +91,20 @@ ____________________________________________________________________
 |4.15.2021| Implement Host Services | 2              | 10:30 PM| 11:00 PM | Completed
 |4.15.2021| Implement Guest Services | 2              | 1:30 PM | 2:45 PM | Completed
 |4.15.2021| Implement Reservation Services | 2              | 10:30 PM | 11:00 PM | Completed
-|4.15.2021| Test Host Services | 2              | _ | _ | Not Started
-|4.15.2021| Test Guest Services | 2              | _ | _ | Not Started
-|4.15.2021| Test Reservation Services | 2              | _ | _ | Not Started
+|4.17.2021| Test Host Services | 2              | 10:00 AM | 2:00 PM | Completed
+|4.17.2021| Test Guest Services | 2             | 10:00 AM | 2:00 PM | Completed
+|4.17.2021| Test Reservation Services | 2              | 10:00 AM | 2:00 PM | Completed
 |4.16.2021| Implement View class | 1              | 9:00 AM  | 10:00 AM | Completed
 |4.16.2021| Implement Controller class | 1              | 10:00 AM | 10:00 AM  | Completed
 |4.16.2021| Implement App class | 0.5              | 9:00 PM | 9:15 PM | Completed
 |4.16.2021| Spring Annotations | 0.5  | 9:00 PM | 9:05 PM | Completed
 |4.16.2021| Second Progress presentation|0.25  | 10:15 AM | 10:30 AM | Completed
-|4.16.2021| Update Tests for 100% coverage| 0.5 | _ | _ | Not Started
-|4.16.2021| Stretch Goal #1 | 4  | _ | _ | Not Started
-|4.17.2021| Stretch Goal #2 | 4  | _ | _ | Not Started
-|4.17.2021| Bugs: find and fix #1 | 1  | _ | _ | Not Started
-|4.17.2021| Update Documentation, Javadoc, HTML page| 0.5| _ | _ | Not Started
-|4.17.2021| Final Test: attempt to break code| 0.5              | _ | _ | Not Started
+|4.16.2021| Update Tests for 100% coverage| 0.5 | 10:00 AM | 2:00 PM | Completed
+|4.16.2021| Stretch Goal #1 | 4  | 6:00 PM | 10:00 PM | Completed
+|4.17.2021| Stretch Goal #2 | 4  | 6:00 PM | 10:00 PM | Completed
+|4.17.2021| Bugs: find and fix #1 | 1  | 6:00 PM | 10:00 PM | Completed
+|4.17.2021| Update Documentation, Javadoc, HTML page| 0.5| 10:00 AM | 2:00 PM | Completed
+|4.17.2021| Final Test: attempt to break code| 0.5             | 10:00 AM | 2:00 PM | Completed
 
 Table 1
 

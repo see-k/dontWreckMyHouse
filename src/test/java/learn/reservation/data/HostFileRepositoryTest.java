@@ -34,7 +34,7 @@ class HostFileRepositoryTest {
     }
 
     @Test
-    void findByEmail() {
+    void findByEmail() throws DataException {
         HostFileRepository repo = new HostFileRepository("./data/hosts-seed.csv");
         Host all = repo.findByEmail("eyearnes0@sfgate.com");
         assertEquals("Yearnes", all.getLastName());
