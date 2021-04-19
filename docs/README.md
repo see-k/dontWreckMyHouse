@@ -135,7 +135,13 @@ Figure 2
 
 
 Figure 3
+ ______________________________________________________________________
+## Sequence Diagram
 
+ ```diff
+ + Click the link below to view flow chart in full page
+ ```
+![NewSequenceDiagram](https://user-images.githubusercontent.com/40407778/115240083-05313d00-a0e5-11eb-8b19-24dc13dd8c3b.png)
  ________________________________________________________
 ### Notes
  Project will have an additional HTML page with additional explanation on methods and classes
