@@ -117,12 +117,7 @@ Table 1
 
 ![ClassDiagram](https://user-images.githubusercontent.com/40407778/114618692-43ef6f00-9c6f-11eb-8a35-7d40a36be57b.JPG)
 
-Figure 1
-  ______________________________________________________________________
-## Sequence Chart
- ```diff
- - Not yet Available
- ```
+
 Figure 2
  ______________________________________________________________________
 ## Flow Chart
